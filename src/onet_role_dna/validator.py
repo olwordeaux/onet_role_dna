@@ -10,7 +10,6 @@ import json
 import pathlib
 import re
 import sys
-from typing import Any, Dict, List, Tuple
 
 PROJECT_REGEX = re.compile(r"^[a-z0-9-]+$")
 CONTENT_REGEX = re.compile(r"^[a-z0-9-]+$")
@@ -29,7 +28,7 @@ def validate_date(date_str: str) -> bool:
         return False
 
 
-def validate_data_file(file_path: pathlib.Path) -> List[str]:
+def validate_data_file(file_path: pathlib.Path) -> list[str]:
     """
     Validates a data file's name and verifies its content matches the embedded hash.
     """
@@ -91,12 +90,12 @@ def validate_data_file(file_path: pathlib.Path) -> List[str]:
     return errors
 
 
-def validate_sidecar_file(meta_path: pathlib.Path) -> List[str]:
+def validate_sidecar_file(meta_path: pathlib.Path) -> list[str]:
     """
     Validates a .meta.json sidecar file against its corresponding data file.
     """
     errors = []
-    
+
     # Deriving expected data file path (remove '.meta.json' suffix)
     data_filename = meta_path.name[:-10]
     data_path = meta_path.parent / data_filename
@@ -140,7 +139,9 @@ def validate_sidecar_file(meta_path: pathlib.Path) -> List[str]:
             if meta["ext"] != ext:
                 errors.append(f"Sidecar ext '{meta['ext']}' does not match filename ext '{ext}'.")
             if meta["filename"] != data_filename:
-                errors.append(f"Sidecar filename '{meta['filename']}' does not match actual filename '{data_filename}'.")
+                errors.append(
+                    f"Sidecar filename '{meta['filename']}' does not match actual filename '{data_filename}'."
+                )
 
     # Verify size and hash against actual data file
     try:
@@ -151,7 +152,9 @@ def validate_sidecar_file(meta_path: pathlib.Path) -> List[str]:
         if meta["sha256"] != actual_sha:
             errors.append(f"Sidecar sha256 '{meta['sha256']}' does not match actual data file sha256 '{actual_sha}'.")
         if meta["size_bytes"] != actual_size:
-            errors.append(f"Sidecar size_bytes {meta['size_bytes']} does not match actual data file size {actual_size}.")
+            errors.append(
+                f"Sidecar size_bytes {meta['size_bytes']} does not match actual data file size {actual_size}."
+            )
     except Exception as e:
         errors.append(f"Error reading corresponding data file for sidecar validation: {e}")
 
@@ -221,7 +224,7 @@ def run_self_tests() -> None:
         valid_sha = hashlib.sha256(valid_content).hexdigest()
         valid_hash8 = valid_sha[:8]
         valid_filename = f"onet_valid-test_2026-06-05_v1.0.0_{valid_hash8}.json"
-        
+
         valid_path = test_dir / valid_filename
         valid_path.write_bytes(valid_content)
 
@@ -240,7 +243,7 @@ def run_self_tests() -> None:
         valid_meta_path.write_text(json.dumps(valid_meta, indent=2), encoding="utf-8")
 
         # 2. Create an invalid file with wrong hash in name
-        invalid_filename = f"onet_invalid-test_2026-06-05_v1.0.0_deadbeef.json"
+        invalid_filename = "onet_invalid-test_2026-06-05_v1.0.0_deadbeef.json"
         invalid_path = test_dir / invalid_filename
         invalid_path.write_bytes(b"some other content")
 
@@ -261,7 +264,9 @@ def run_self_tests() -> None:
 
         invalid_errors = validate_data_file(invalid_path)
         assert len(invalid_errors) > 0, "Expected errors for invalid hash file, but got none."
-        assert any("Content integrity violation" in err for err in invalid_errors), f"Unexpected error msg: {invalid_errors}"
+        assert any(
+            "Content integrity violation" in err for err in invalid_errors
+        ), f"Unexpected error msg: {invalid_errors}"
 
         bad_format_errors = validate_data_file(bad_format_path)
         assert len(bad_format_errors) > 0, "Expected naming error for malformed filename, but got none."

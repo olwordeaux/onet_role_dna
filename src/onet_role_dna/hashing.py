@@ -5,7 +5,6 @@ regardless of dictionary key-ordering or data types.
 
 import hashlib
 import json
-import sys
 from typing import Any
 
 
@@ -57,7 +56,7 @@ def serialize_data(data: Any) -> bytes:
 
     # Fallback/catch-all for custom objects
     try:
-        if hasattr(data, "to_dict") and callable(getattr(data, "to_dict")):
+        if hasattr(data, "to_dict") and callable(data.to_dict):
             return serialize_data(data.to_dict())
         return str(data).encode("utf-8")
     except Exception as e:
@@ -77,7 +76,7 @@ def compute_sha256(data: Any) -> str:
 
 if __name__ == "__main__":
     print("Running stable SHA-256 calculation and serialization self-test...")
-    
+
     # Test 1: String hashing
     h1 = compute_sha256("test-string")
     print(f"String hash: {h1}")

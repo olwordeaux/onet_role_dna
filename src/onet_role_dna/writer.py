@@ -7,7 +7,7 @@ import datetime
 import json
 import pathlib
 import re
-from typing import Any, Dict, List, Optional
+from typing import Any
 
 from onet_role_dna.hashing import compute_sha256
 
@@ -88,7 +88,7 @@ def write_data_file(
     version: str,
     data: Any,
     ext: str,
-    date: Optional[str] = None,
+    date: str | None = None,
 ) -> pathlib.Path:
     """
     Validates, serializes, hashes, and writes the data to the naming pattern.
@@ -193,7 +193,9 @@ if __name__ == "__main__":
         expected_hash = compute_sha256(test_bytes)[:8]
         expected_name = f"onet_role-dna-full-profiles_2026-06-05_v0.1.0_{expected_hash}.jsonl"
 
-        assert written_file.name == expected_name, f"Filename mismatch! Expected {expected_name}, got {written_file.name}"
+        assert written_file.name == expected_name, (
+            f"Filename mismatch! Expected {expected_name}, got {written_file.name}"
+        )
 
         # Verify sidecar metadata exists
         meta_file = test_dir / f"{expected_name}.meta.json"
