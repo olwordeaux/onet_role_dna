@@ -1,23 +1,24 @@
-import urllib.request, urllib.parse, urllib.error
-import urllib.request, urllib.error, urllib.parse
-import base64
 import json
+import urllib.error
+import urllib.parse
+import urllib.request
+
 
 class OnetWebService:
-    
+
     def __init__(self, api_key):
         self._headers = {
             'User-Agent': 'python-OnetWebService/2.00 (bot)',
             'X-API-Key': api_key,
             'Accept': 'application/json' }
         self.set_version()
-    
+
     def set_version(self, version = None):
         if version is None:
             self._url_root = 'https://api-v2.onetcenter.org/'
         else:
             self._url_root = 'https://api-v' + version + '.onetcenter.org/'
-    
+
     def call(self, path, *query):
         try:
             url = self._url_root + path
@@ -49,5 +50,5 @@ class OnetWebService:
                 return { 'error': 'Call to ' + url + ' failed to return valid JSON' }
             except UnicodeDecodeError:
                 return { 'error': 'Call to ' + url + ' failed to return valid UTF-8' }
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001
             return { 'error': 'Call failed with unexpected error', 'exception': e }

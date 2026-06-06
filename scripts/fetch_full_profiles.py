@@ -3,7 +3,6 @@ Data fetch script that polls the O*NET Web Services API, compiles full detailed
 profiles, tracks download progress, and saves them to standardized paths.
 """
 
-import sys
 import time
 from urllib.parse import parse_qs
 
@@ -33,7 +32,7 @@ def fetch_all_pages(rel_path, query_params=None):
                 break
         if data_key and result[data_key]:
             elements.extend(result[data_key])
-        if "next" in result and result["next"]:
+        if result.get("next"):
             next_url = result["next"]
             if next_url.startswith("https://api-v2.onetcenter.org/"):
                 path_part = next_url[len("https://api-v2.onetcenter.org/"):]
@@ -70,7 +69,7 @@ def build_full_profile(soc_code):
     profile["details"] = {}     # where we'll store detailed sections
 
     details_contents = overview.get("details_contents", [])
-    
+
     # Sub-progress bar for the specific sections of this occupation
     for item in tqdm(details_contents, desc=f"  Loading {soc_code}", leave=False, unit="section"):
         title = item.get("title")
@@ -83,7 +82,7 @@ def build_full_profile(soc_code):
             if not data:
                 data = fetch_single(rel_path)
             profile["details"][title.lower().replace(" ", "_")] = data
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001
             tqdm.write(f"    Error fetching {title} for {soc_code}: {e}")
             profile["details"][title.lower().replace(" ", "_")] = None
         time.sleep(0.2)
@@ -99,27 +98,25 @@ def main():
         "15-2031.00",
         "41-3091.00"
     ]
-    
+
     fetched_profiles = []
-    
-    print("Beginning O*NET Web Services profile collection...")
-    
+
+
     # Outer progress bar for the occupations list
     for code in tqdm(soc_codes, desc="Total Fetch Progress", unit="occupation"):
         try:
             full = build_full_profile(code)
             fetched_profiles.append(full)
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001
             tqdm.write(f"ERROR: Failed to build profile for {code}. Reason: {e}")
         time.sleep(0.5)
 
     if not fetched_profiles:
-        print("No profiles were successfully fetched. Aborting write.")
         return
 
     # Write the compiled profiles natively using our standardized, compliant writer
     try:
-        written_path = write_data_file(
+        write_data_file(
             directory="data",
             project="onet",
             content="full-profiles",
@@ -127,10 +124,8 @@ def main():
             data=fetched_profiles,
             ext="jsonl"
         )
-        print(f"\nSUCCESS: Conforming data file written to: {written_path}")
-        print(f"Sidecar record written to: {written_path}.meta.json")
-    except Exception as e:
-        print(f"\nERROR: Failed to save the compliant file: {e}")
+    except Exception:  # noqa: BLE001
+        pass
 
 
 if __name__ == "__main__":

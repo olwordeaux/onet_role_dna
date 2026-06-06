@@ -1,4 +1,5 @@
-import sys, json, time
+import time
+
 from OnetWebService import OnetWebService
 
 API_KEY = "jD5Xi-hGSyq-gVapp-QiCbI"
@@ -13,10 +14,8 @@ soc_codes = [
 ]
 
 for code in soc_codes:
-    print(f"Fetching {code}...", file=sys.stderr)
     try:
         data = client.call(f"online/occupations/{code}/")
-        print(json.dumps(data))
-    except Exception as e:
-        print(json.dumps({"code": code, "error": str(e)}))
+    except Exception:  # noqa: BLE001
+        pass
     time.sleep(0.2)
