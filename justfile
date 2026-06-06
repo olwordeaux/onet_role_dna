@@ -103,3 +103,7 @@ clean-test:
 publish:
     uv build
     uv publish
+
+# Validate data directory naming policy and cryptographic integrity
+validate-data dir="data":
+    PYTHONPATH=src python src/onet_role_dna/validator.py {{dir}}
