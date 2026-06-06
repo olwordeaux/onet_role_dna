@@ -55,6 +55,12 @@ homepage = "https://github.com/olwordeaux/onet_role_dna"
 [project.scripts]
 onet_role_dna = "onet_role_dna.cli:app"
 
+[project.optional-dependencies]
+pandas = [
+    "pandas>=2.1.0",
+    "pyarrow>=14.0.0",
+]
+
 [tool.ty]
 # All rules are enabled as "error" by default; no need to specify unless overriding.
 # Example override: relax a rule for the entire project (uncomment if needed).
