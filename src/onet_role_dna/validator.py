@@ -10,7 +10,6 @@ import json
 import pathlib
 import re
 import sys
-from typing import List
 
 PROJECT_REGEX = re.compile(r"^[a-z0-9-]+$")
 CONTENT_REGEX = re.compile(r"^[a-z0-9-]+$")
@@ -29,7 +28,7 @@ def validate_date(date_str: str) -> bool:
         return False
 
 
-def validate_data_file(file_path: pathlib.Path) -> List[str]:
+def validate_data_file(file_path: pathlib.Path) -> list[str]:
     """
     Validates a data file's name and verifies its content matches the embedded hash.
     """
@@ -91,7 +90,7 @@ def validate_data_file(file_path: pathlib.Path) -> List[str]:
     return errors
 
 
-def validate_sidecar_file(meta_path: pathlib.Path) -> List[str]:
+def validate_sidecar_file(meta_path: pathlib.Path) -> list[str]:
     """
     Validates a .meta.json sidecar file against its corresponding data file.
     """
