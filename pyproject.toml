@@ -77,7 +77,18 @@ select = [
     "I",   # isort
     "B",   # flake8-bugbear
     "UP",  # pyupgrade
+    "N",   # pep8-naming
+    "RUF", # Ruff-specific rules
+    "T20", # flake8-print
+    "BLE", # flake8-blind-except
 ]
+ignore = []
+
+[tool.ruff.lint.per-file-ignores]
+# Allow print statements in developer CLI utilities and standalone test execution files
+"src/onet_role_dna/validator.py" = ["T201", "BLE001"]
+"src/onet_role_dna/hashing.py" = ["T201"]
+"src/onet_role_dna/writer.py" = ["T201"]
 
 [tool.coverage.run]
 branch = true

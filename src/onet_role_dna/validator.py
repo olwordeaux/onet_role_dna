@@ -66,7 +66,7 @@ def validate_data_file(file_path: pathlib.Path) -> list[str]:
         errors.append(f"Missing file extension in last component '{hash_ext}'.")
         return errors
 
-    hash8, ext = hash_ext.split(".", 1)
+    hash8, _ext = hash_ext.split(".", 1)
 
     if not HASH8_REGEX.match(hash8):
         errors.append(f"Invalid 8-char hash suffix '{hash8}': must be hexadecimal.")
@@ -123,7 +123,7 @@ def validate_sidecar_file(meta_path: pathlib.Path) -> list[str]:
     if len(parts) == 5:
         project, content, date, version, hash_ext = parts
         if "." in hash_ext:
-            hash8, ext = hash_ext.split(".", 1)
+            hash8, _ext = hash_ext.split(".", 1)
 
             # Cross-reference sidecar with parsed naming parts
             if meta["project"] != project:
