@@ -10,6 +10,7 @@ from typing import Any
 
 class SerializationError(Exception):
     """Raised when data serialization fails or is unsupported."""
+
     pass
 
 
@@ -37,6 +38,7 @@ def serialize_data(data: Any) -> bytes:
     # Dynamic check for pandas to support DataFrames if installed
     try:
         import pandas as pd
+
         is_dataframe = isinstance(data, pd.DataFrame)
     except ImportError:
         is_dataframe = False
@@ -45,6 +47,7 @@ def serialize_data(data: Any) -> bytes:
         try:
             # Deterministic DataFrame serialization by sorting columns and index
             import pandas as pd
+
             assert isinstance(data, pd.DataFrame)  # Type narrowing for static analysis
             df_sorted = data.reindex(sorted(data.columns), axis=1)
             json_str = df_sorted.to_json(orient="records", date_format="iso")

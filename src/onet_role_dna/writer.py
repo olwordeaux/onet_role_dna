@@ -39,12 +39,14 @@ def serialize_payload(data: Any, ext: str) -> bytes:
         # Dynamic check for pandas DataFrame
         try:
             import pandas as pd
+
             is_df = isinstance(data, pd.DataFrame)
         except ImportError:
             is_df = False
 
         if is_df:
             import pandas as pd
+
             assert isinstance(data, pd.DataFrame)
             df_sorted = data.reindex(sorted(data.columns), axis=1)
             return df_sorted.to_csv(index=False).encode("utf-8")
@@ -54,6 +56,7 @@ def serialize_payload(data: Any, ext: str) -> bytes:
                 return b""
             import csv
             import io
+
             output = io.StringIO()
             headers = sorted(list(data[0].keys()))
             writer = csv.DictWriter(output, fieldnames=headers)
@@ -65,12 +68,14 @@ def serialize_payload(data: Any, ext: str) -> bytes:
     elif ext_clean == "parquet":
         try:
             import pandas as pd
+
             is_df = isinstance(data, pd.DataFrame)
         except ImportError:
             is_df = False
 
         if is_df:
             import pandas as pd
+
             assert isinstance(data, pd.DataFrame)
             df_sorted = data.reindex(sorted(data.columns), axis=1)
             return df_sorted.to_parquet(index=False)
@@ -78,6 +83,7 @@ def serialize_payload(data: Any, ext: str) -> bytes:
     else:
         # Generic bytes/string fallback
         from onet_role_dna.hashing import serialize_data
+
         return serialize_data(data)
 
 
@@ -135,6 +141,7 @@ def write_data_file(
     else:
         try:
             import pandas as pd
+
             if isinstance(data, pd.DataFrame):
                 row_count = len(data)
         except ImportError:
@@ -162,6 +169,7 @@ def write_data_file(
 
 if __name__ == "__main__":
     import shutil
+
     print("Running Phase 2 file writer and metadata sidecar self-test...")
 
     test_dir = pathlib.Path("data_test_tmp")
@@ -172,7 +180,7 @@ if __name__ == "__main__":
         # Sample test data
         test_data = [
             {"id": 1, "occupation": "Software Engineer", "code": "15-1132"},
-            {"id": 2, "occupation": "Data Scientist", "code": "15-1111"}
+            {"id": 2, "occupation": "Data Scientist", "code": "15-1111"},
         ]
 
         # Write test JSONL file
@@ -183,7 +191,7 @@ if __name__ == "__main__":
             version="v0.1.0",
             data=test_data,
             ext="jsonl",
-            date="2026-06-05"
+            date="2026-06-05",
         )
 
         print(f"Written file path: {written_file}")

@@ -23,6 +23,11 @@ dependencies = [
   "typer",
   "rich",
   "tqdm",
+  "pandas>=3.0.3",
+  "numpy>=2.4.6",
+  "scikit-learn>=1.9.0",
+  "polars>=1.41.2",
+  "narwhals>=2.22.1",
 ]
 requires-python = ">= 3.12"
 
@@ -31,6 +36,17 @@ dev = [
     { include-group = "lint" },
     { include-group = "test" },
     { include-group = "typecheck" },
+    "ipython>=9.14.1",
+    "jupyter>=1.1.1",
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.7.6",
+    "mkdocstrings[python]>=1.0.4",
+    "mypy>=2.1.0",
+    "pip-audit>=2.10.0",
+    "pre-commit>=4.6.0",
+    "ty>=0.0.44",
+    "types-setuptools>=82.0.0.20260518",
+    "types-tqdm>=4.67.3.20260518",
 ]
 lint = [
     "ruff",

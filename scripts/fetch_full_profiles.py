@@ -11,7 +11,7 @@ from tqdm import tqdm
 
 from onet_role_dna.writer import write_data_file
 
-API_KEY = "jD5Xi-hGSyq-gVapp-QiCbI"   # replace if different
+API_KEY = "jD5Xi-hGSyq-gVapp-QiCbI"  # replace if different
 client = OnetWebService(API_KEY)
 
 
@@ -35,7 +35,7 @@ def fetch_all_pages(rel_path, query_params=None):
         if result.get("next"):
             next_url = result["next"]
             if next_url.startswith("https://api-v2.onetcenter.org/"):
-                path_part = next_url[len("https://api-v2.onetcenter.org/"):]
+                path_part = next_url[len("https://api-v2.onetcenter.org/") :]
             else:
                 path_part = next_url.lstrip("/")
             if "?" in path_part:
@@ -65,8 +65,8 @@ def build_full_profile(soc_code):
     if "error" in overview:
         raise Exception(f"Overview error: {overview['error']}")
 
-    profile = overview.copy()   # start with overview
-    profile["details"] = {}     # where we'll store detailed sections
+    profile = overview.copy()  # start with overview
+    profile["details"] = {}  # where we'll store detailed sections
 
     details_contents = overview.get("details_contents", [])
 
@@ -91,16 +91,9 @@ def build_full_profile(soc_code):
 
 
 def main():
-    soc_codes = [
-        "13-2072.00",
-        "11-3031.00",
-        "11-1021.00",
-        "15-2031.00",
-        "41-3091.00"
-    ]
+    soc_codes = ["13-2072.00", "11-3031.00", "11-1021.00", "15-2031.00", "41-3091.00"]
 
     fetched_profiles = []
-
 
     # Outer progress bar for the occupations list
     for code in tqdm(soc_codes, desc="Total Fetch Progress", unit="occupation"):
@@ -122,7 +115,7 @@ def main():
             content="full-profiles",
             version="v0.1.0",
             data=fetched_profiles,
-            ext="jsonl"
+            ext="jsonl",
         )
     except Exception:  # noqa: BLE001
         pass

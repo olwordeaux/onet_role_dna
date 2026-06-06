@@ -212,6 +212,7 @@ def validate_directory(directory: str | pathlib.Path) -> bool:
 
 def run_self_tests() -> None:
     import shutil
+
     print("Running Phase 3 validator self-test...")
     test_dir = pathlib.Path("validator_test_tmp")
     if test_dir.exists():
@@ -237,7 +238,7 @@ def run_self_tests() -> None:
             "sha256": valid_sha,
             "ext": "json",
             "filename": valid_filename,
-            "size_bytes": len(valid_content)
+            "size_bytes": len(valid_content),
         }
         valid_meta_path = test_dir / f"{valid_filename}.meta.json"
         valid_meta_path.write_text(json.dumps(valid_meta, indent=2), encoding="utf-8")
@@ -264,9 +265,9 @@ def run_self_tests() -> None:
 
         invalid_errors = validate_data_file(invalid_path)
         assert len(invalid_errors) > 0, "Expected errors for invalid hash file, but got none."
-        assert any(
-            "Content integrity violation" in err for err in invalid_errors
-        ), f"Unexpected error msg: {invalid_errors}"
+        assert any("Content integrity violation" in err for err in invalid_errors), (
+            f"Unexpected error msg: {invalid_errors}"
+        )
 
         bad_format_errors = validate_data_file(bad_format_path)
         assert len(bad_format_errors) > 0, "Expected naming error for malformed filename, but got none."
