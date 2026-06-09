@@ -109,6 +109,7 @@ ignore = []
 "scripts/workspace_status.py" = ["T201", "BLE001"]
 "src/onet_role_dna/schema.py" = ["T201", "BLE001"]
 "scripts/test_data_dictionary.py" = ["T201", "BLE001"]
+"scripts/fetch_raw_data.py" = ["T201", "BLE001"]
 
 [tool.coverage.run]
 branch = true
