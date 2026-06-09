@@ -288,8 +288,358 @@
       "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/skills/2.B.5.d"
     }
   ],
-  "tasks": [],
-  "technology_skills": [],
+  "tasks": [
+    {
+      "category": "Core",
+      "id": "21311",
+      "importance": 83,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/tasks/21311",
+      "title": "Establish and maintain relationships with individual or business customers or provide assistance with problems these customers may encounter."
+    },
+    {
+      "category": "Core",
+      "id": "21319",
+      "importance": 80,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/tasks/21319",
+      "title": "Oversee the flow of cash or financial instruments."
+    },
+    {
+      "category": "Core",
+      "id": "21312",
+      "importance": 78,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/tasks/21312",
+      "title": "Plan, direct, or coordinate the activities of workers in branches, offices, or departments of establishments, such as branch banks, brokerage firms, risk and insurance departments, or credit departments."
+    },
+    {
+      "category": "Core",
+      "id": "21313",
+      "importance": 70,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/tasks/21313",
+      "title": "Recruit staff members."
+    },
+    {
+      "category": "Core",
+      "id": "21315",
+      "importance": 65,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/tasks/21315",
+      "title": "Evaluate data pertaining to costs to plan budgets."
+    },
+    {
+      "category": "Core",
+      "id": "21316",
+      "importance": 62,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/tasks/21316",
+      "title": "Oversee training programs."
+    },
+    {
+      "category": "Supplemental",
+      "id": "21327",
+      "importance": 85,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/tasks/21327",
+      "title": "Establish procedures for custody or control of assets, records, loan collateral, or securities to ensure safekeeping."
+    },
+    {
+      "category": "Supplemental",
+      "id": "21322",
+      "importance": 81,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/tasks/21322",
+      "title": "Communicate with stockholders or other investors to provide information or to raise capital."
+    },
+    {
+      "category": "Supplemental",
+      "id": "21321",
+      "importance": 79,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/tasks/21321",
+      "title": "Develop or analyze information to assess the current or future financial status of firms."
+    },
+    {
+      "category": "Supplemental",
+      "id": "21318",
+      "importance": 77,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/tasks/21318",
+      "title": "Approve, reject, or coordinate the approval or rejection of lines of credit or commercial, real estate, or personal loans."
+    }
+  ],
+  "technology_skills": [
+    {
+      "code": 43231602,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Microsoft%20Dynamics",
+          "title": "Microsoft Dynamics"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Oracle%20PeopleSoft",
+          "title": "Oracle PeopleSoft"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/SAP%20software",
+          "in_demand": true,
+          "percentage": 5,
+          "title": "SAP software"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Workday%20software",
+          "title": "Workday software"
+        }
+      ],
+      "example_more": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Microsoft%20Dynamics%20GP",
+          "title": "Microsoft Dynamics GP"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/NetSuite%20ERP",
+          "title": "NetSuite ERP"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20Fusion%20Applications",
+          "title": "Oracle Fusion Applications"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20Hyperion",
+          "title": "Oracle Hyperion"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20JD%20Edwards%20EnterpriseOne",
+          "title": "Oracle JD Edwards EnterpriseOne"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20PeopleSoft%20Financials",
+          "title": "Oracle PeopleSoft Financials"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/SAP%20Business%20Objects",
+          "title": "SAP Business Objects"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/technology_skills/43231602",
+      "title": "Enterprise resource planning ERP software"
+    },
+    {
+      "code": 43232106,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20PowerPoint",
+          "in_demand": true,
+          "percentage": 8,
+          "title": "Microsoft PowerPoint"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/technology_skills/43232106",
+      "title": "Presentation software"
+    },
+    {
+      "code": 43232306,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20SQL%20Server",
+          "title": "Microsoft SQL Server"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Oracle%20Database",
+          "title": "Oracle Database"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Structured%20query%20language%20SQL",
+          "title": "Structured query language SQL"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Yardi%20software",
+          "title": "Yardi software"
+        }
+      ],
+      "example_more": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Database%20software",
+          "title": "Database software"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/FileMaker%20Pro",
+          "title": "FileMaker Pro"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Access",
+          "title": "Microsoft Access"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/technology_skills/43232306",
+      "title": "Data base user interface and query software"
+    },
+    {
+      "code": 43232314,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Alteryx%20software",
+          "title": "Alteryx software"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/IBM%20Cognos%20Impromptu",
+          "title": "IBM Cognos Impromptu"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20Business%20Intelligence%20Enterprise%20Edition",
+          "title": "Oracle Business Intelligence Enterprise Edition"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Tableau",
+          "title": "Tableau"
+        }
+      ],
+      "example_more": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/MicroStrategy",
+          "title": "MicroStrategy"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Qlik%20Tech%20QlikView",
+          "title": "Qlik Tech QlikView"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/technology_skills/43232314",
+      "title": "Business intelligence and data analysis software"
+    },
+    {
+      "code": 43231601,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Accounts%20receivable%20software",
+          "title": "Accounts receivable software"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Fund%20accounting%20software",
+          "title": "Fund accounting software"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Intuit%20QuickBooks",
+          "title": "Intuit QuickBooks"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Sage%2050%20Accounting",
+          "title": "Sage 50 Accounting"
+        }
+      ],
+      "example_more": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Tax%20software",
+          "title": "Tax software"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/technology_skills/43231601",
+      "title": "Accounting software"
+    },
+    {
+      "code": 43231604,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/ARES%20Corporation%20PRISM%20Project%20Estimator",
+          "title": "ARES Corporation PRISM Project Estimator"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Credit%20management%20software",
+          "title": "Credit management software"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Delphi%20Technology",
+          "title": "Delphi Technology"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20E-Business%20Suite%20Financials",
+          "title": "Oracle E-Business Suite Financials"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/technology_skills/43231604",
+      "title": "Financial analysis software"
+    },
+    {
+      "code": 43233501,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/IBM%20Notes",
+          "title": "IBM Notes"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Microsoft%20Exchange",
+          "title": "Microsoft Exchange"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Outlook",
+          "in_demand": true,
+          "percentage": 5,
+          "title": "Microsoft Outlook"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/technology_skills/43233501",
+      "title": "Electronic mail software"
+    },
+    {
+      "code": 43231505,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/ADP%20Workforce%20Now",
+          "title": "ADP Workforce Now"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Human%20resource%20information%20system%20(HRIS)",
+          "title": "Human resource information system (HRIS)"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Human%20resource%20management%20software%20HRMS",
+          "title": "Human resource management software HRMS"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/technology_skills/43231505",
+      "title": "Human resources software"
+    },
+    {
+      "code": 43232110,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Excel",
+          "in_demand": true,
+          "percentage": 19,
+          "title": "Microsoft Excel"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Moody's%20KMV%20FAMAS",
+          "title": "Moody's KMV FAMAS"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/technology_skills/43232110",
+      "title": "Spreadsheet software"
+    },
+    {
+      "code": 43232202,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Adobe%20Acrobat",
+          "title": "Adobe Acrobat"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20SharePoint",
+          "title": "Microsoft SharePoint"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-3031.00/related/technology_skills/43232202",
+      "title": "Document management software"
+    }
+  ],
   "title": "Financial Managers",
   "work_activities": [
     {

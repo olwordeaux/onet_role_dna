@@ -287,8 +287,484 @@
       "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/skills/2.A.2.b"
     }
   ],
-  "tasks": [],
-  "technology_skills": [],
+  "tasks": [
+    {
+      "category": "Core",
+      "id": "3408",
+      "importance": 90,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/tasks/3408",
+      "title": "Meet with applicants to obtain information for loan applications and to answer questions about the process."
+    },
+    {
+      "category": "Core",
+      "id": "3409",
+      "importance": 89,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/tasks/3409",
+      "title": "Analyze applicants' financial status, credit, and property evaluations to determine feasibility of granting loans."
+    },
+    {
+      "category": "Core",
+      "id": "3407",
+      "importance": 85,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/tasks/3407",
+      "title": "Approve loans within specified limits, and refer loan applications outside those limits to management for approval."
+    },
+    {
+      "category": "Core",
+      "id": "3410",
+      "importance": 83,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/tasks/3410",
+      "title": "Explain to customers the different types of loans and credit options that are available, as well as the terms of those services."
+    },
+    {
+      "category": "Core",
+      "id": "3416",
+      "importance": 80,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/tasks/3416",
+      "title": "Submit applications to credit analysts for verification and recommendation."
+    },
+    {
+      "category": "Core",
+      "id": "3413",
+      "importance": 79,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/tasks/3413",
+      "title": "Review loan agreements to ensure that they are complete and accurate according to policy."
+    },
+    {
+      "category": "Core",
+      "id": "3412",
+      "importance": 78,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/tasks/3412",
+      "title": "Review and update credit and loan files."
+    },
+    {
+      "category": "Core",
+      "id": "3411",
+      "importance": 78,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/tasks/3411",
+      "title": "Obtain and compile copies of loan applicants' credit histories, corporate financial statements, and other financial information."
+    },
+    {
+      "category": "Core",
+      "id": "3418",
+      "importance": 74,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/tasks/3418",
+      "title": "Work with clients to identify their financial goals and to find ways of reaching those goals."
+    },
+    {
+      "category": "Core",
+      "id": "3417",
+      "importance": 74,
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/tasks/3417",
+      "title": "Handle customer complaints and take appropriate action to resolve them."
+    }
+  ],
+  "technology_skills": [
+    {
+      "code": 43232306,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/FileMaker%20Pro",
+          "title": "FileMaker Pro"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Access",
+          "title": "Microsoft Access"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Student%20information%20systems%20SIS%20software",
+          "title": "Student information systems SIS software"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Sungard%20Higher%20Education%20PowerFAIDS",
+          "title": "Sungard Higher Education PowerFAIDS"
+        }
+      ],
+      "example_more": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/EDExpress",
+          "title": "EDExpress"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/ELM%20Resources%20ELM",
+          "title": "ELM Resources ELM"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/EMT%20Applications%20CounselorMax",
+          "title": "EMT Applications CounselorMax"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Financial%20aid%20management%20system%20FAM",
+          "title": "Financial aid management system FAM"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/SunGard%20Higher%20Education%20Banner%20Financial%20Aid",
+          "title": "SunGard Higher Education Banner Financial Aid"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/technology_skills/43232306",
+      "title": "Data base user interface and query software"
+    },
+    {
+      "code": 43233502,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Zoom",
+          "title": "Zoom"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/technology_skills/43233502",
+      "title": "Video conferencing software"
+    },
+    {
+      "code": 43231604,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Delphi%20Discovery",
+          "title": "Delphi Discovery"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Experian%20Credinomics",
+          "title": "Experian Credinomics"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/VueCentric%20MortgageDashboard",
+          "title": "VueCentric MortgageDashboard"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/White%20Clarke%20North%20America%20Credit%20Adjudication%20and%20Lending%20Management",
+          "title": "White Clarke North America Credit Adjudication and Lending Management"
+        }
+      ],
+      "example_more": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/1003%20Uniform%20Residential%20Loan%20Application",
+          "title": "1003 Uniform Residential Loan Application"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Amortization%20loan%20software",
+          "title": "Amortization loan software"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Bankers%20Systems%20Rembrandt%20Lending%20System",
+          "title": "Bankers Systems Rembrandt Lending System"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/California%20Infinite%20LPS",
+          "title": "California Infinite LPS"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Calyx%20Point",
+          "title": "Calyx Point"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/CGI-AMS%20CACS%20Enterprise",
+          "title": "CGI-AMS CACS Enterprise"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/CGI-AMS%20Strata",
+          "title": "CGI-AMS Strata"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Click1003%20Online%20Mortgage%20Application",
+          "title": "Click1003 Online Mortgage Application"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Credit%20and%20risk%20analysis%20software",
+          "title": "Credit and risk analysis software"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Credit%20fraud%20detection%20software",
+          "title": "Credit fraud detection software"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Credit%20underwriting%20software",
+          "title": "Credit underwriting software"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Dun%20and%20Bradstreet%20Global%20DecisionMaker",
+          "title": "Dun and Bradstreet Global DecisionMaker"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Dynamic%20Loanledger",
+          "title": "Dynamic Loanledger"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/eCredit%20Enterprise",
+          "title": "eCredit Enterprise"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Ellie%20Mae%20Contour",
+          "title": "Ellie Mae Contour"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Ellie%20Mae%20Genesis",
+          "title": "Ellie Mae Genesis"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Equifax%20Advanced%20Decisioning",
+          "title": "Equifax Advanced Decisioning"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Equifax%20InterConnect",
+          "title": "Equifax InterConnect"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Experian%20Detect",
+          "title": "Experian Detect"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Experian%20FraudShield",
+          "title": "Experian FraudShield"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Experian%20Quest",
+          "title": "Experian Quest"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Experian%20Retention%20Triggers",
+          "title": "Experian Retention Triggers"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Fair%20Isaac%20Application%20Risk%20Model%20Software",
+          "title": "Fair Isaac Application Risk Model Software"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Fair%20Isaac%20Capstone%20Decision%20Manager",
+          "title": "Fair Isaac Capstone Decision Manager"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Fair%20Isaac%20Falcon%20ID",
+          "title": "Fair Isaac Falcon ID"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Fannie%20Mae%20Desktop%20Underwriter",
+          "title": "Fannie Mae Desktop Underwriter"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/FAS%20Loan%20Service%20Plus",
+          "title": "FAS Loan Service Plus"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Financial%20Industry%20Computer%20Systems%20Loan%20Originator",
+          "title": "Financial Industry Computer Systems Loan Originator"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Financial%20Industry%20Computer%20Systems%20Loan%20Producer",
+          "title": "Financial Industry Computer Systems Loan Producer"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Freddie%20Mac%20Loan%20Prospector",
+          "title": "Freddie Mac Loan Prospector"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Harland%20Financial%20Solutions%20DecisionPro",
+          "title": "Harland Financial Solutions DecisionPro"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Harland%20Interlinq%20MortgageWare",
+          "title": "Harland Interlinq MortgageWare"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/IA%20Systems%20StreamLend",
+          "title": "IA Systems StreamLend"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Indus%20Lending%20Solutions",
+          "title": "Indus Lending Solutions"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Integra%20Destiny%20Loan%20Origination",
+          "title": "Integra Destiny Loan Origination"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/LA%20PRO%20Loan%20Administrator%20Pro",
+          "title": "LA PRO Loan Administrator Pro"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Loan%20application%20processing%20software",
+          "title": "Loan application processing software"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Loan%20origination%20software",
+          "title": "Loan origination software"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Moody's%20KMV%20CreditEdge",
+          "title": "Moody's KMV CreditEdge"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Moody's%20KMV%20Decisions",
+          "title": "Moody's KMV Decisions"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Moody's%20KMV%20Financial%20Analyst",
+          "title": "Moody's KMV Financial Analyst"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Moody's%20KMV%20Risk%20Advisor",
+          "title": "Moody's KMV Risk Advisor"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Moody's%20KMV%20Risk%20Analyst",
+          "title": "Moody's KMV Risk Analyst"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Opportunity%20management%20system%20OMS",
+          "title": "Opportunity management system OMS"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Plimus%20Loan%20Artist",
+          "title": "Plimus Loan Artist"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/QuikDraw%20Loan%20Management%20System",
+          "title": "QuikDraw Loan Management System"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/RealBenefits%20Amortization%20Loan",
+          "title": "RealBenefits Amortization Loan"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Technicost%20LOS",
+          "title": "Technicost LOS"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/The%20Mortgage%20Office%20Loan%20Origination",
+          "title": "The Mortgage Office Loan Origination"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/The%20Mortgage%20Office%20Loan%20Servicing",
+          "title": "The Mortgage Office Loan Servicing"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/technology_skills/43231604",
+      "title": "Financial analysis software"
+    },
+    {
+      "code": 43231601,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Bottom%20Line%20LoanMaster%20Loan%20Servicing",
+          "title": "Bottom Line LoanMaster Loan Servicing"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Financial%20Industry%20Computer%20Systems%20Loan%20Accountant",
+          "title": "Financial Industry Computer Systems Loan Accountant"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Tax%20software",
+          "title": "Tax software"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/technology_skills/43231601",
+      "title": "Accounting software"
+    },
+    {
+      "code": 43231602,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Datatel%20Colleague",
+          "title": "Datatel Colleague"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Oracle%20PeopleSoft",
+          "title": "Oracle PeopleSoft"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/SAP%20software",
+          "title": "SAP software"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/technology_skills/43231602",
+      "title": "Enterprise resource planning ERP software"
+    },
+    {
+      "code": 43232201,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Equifax%20Application%20Engine",
+          "title": "Equifax Application Engine"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Experian%20Transact%20SM",
+          "title": "Experian Transact SM"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/technology_skills/43232201",
+      "title": "Content workflow software"
+    },
+    {
+      "code": 43233501,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/IBM%20Notes",
+          "title": "IBM Notes"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Outlook",
+          "in_demand": true,
+          "percentage": 7,
+          "title": "Microsoft Outlook"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/technology_skills/43233501",
+      "title": "Electronic mail software"
+    },
+    {
+      "code": 43231513,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Experian%20Strategy%20Management",
+          "title": "Experian Strategy Management"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Office%20software",
+          "in_demand": true,
+          "percentage": 15,
+          "title": "Microsoft Office software"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/technology_skills/43231513",
+      "title": "Office suite software"
+    },
+    {
+      "code": 43232705,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Microsoft%20Internet%20Explorer",
+          "title": "Microsoft Internet Explorer"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Web%20browser%20software",
+          "title": "Web browser software"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/technology_skills/43232705",
+      "title": "Internet browser software"
+    },
+    {
+      "code": 43232309,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/CGI-AMS%20BureauLink%20Enterprise",
+          "title": "CGI-AMS BureauLink Enterprise"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/LexisNexis",
+          "title": "LexisNexis"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/13-2072.00/related/technology_skills/43232309",
+      "title": "Information retrieval or search software"
+    }
+  ],
   "title": "Loan Officers",
   "work_activities": [
     {

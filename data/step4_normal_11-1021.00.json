@@ -205,8 +205,380 @@
       "element_name": "Complex Problem Solving"
     }
   ],
-  "tasks": [],
-  "technology_skills": [],
+  "tasks": [
+    {
+      "task": "Review financial statements, sales or activity reports, or other performance data to measure productivity or goal achievement or to identify areas needing cost reduction or program improvement."
+    },
+    {
+      "task": "Direct and coordinate activities of businesses or departments concerned with the production, pricing, sales, or distribution of products."
+    },
+    {
+      "task": "Direct administrative activities directly related to making products or providing services."
+    },
+    {
+      "task": "Prepare staff work schedules and assign specific duties."
+    },
+    {
+      "task": "Direct or coordinate financial or budget activities to fund operations, maximize investments, or increase efficiency."
+    },
+    {
+      "task": "Plan or direct activities, such as sales promotions, that require coordination with other department managers."
+    },
+    {
+      "task": "Perform personnel functions, such as selection, training, or evaluation."
+    },
+    {
+      "task": "Establish or implement departmental policies, goals, objectives, or procedures in conjunction with board members, organization officials, or staff members."
+    },
+    {
+      "task": "Monitor suppliers to ensure that they efficiently and effectively provide needed goods or services within budgetary limits."
+    },
+    {
+      "task": "Manage the movement of goods into and out of production facilities to ensure efficiency, effectiveness, or sustainability of operations."
+    }
+  ],
+  "technology_skills": [
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Act!"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Oracle Eloqua"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Salesforce software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Sugar CRM"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "ActionWare"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "AMG Teleran SalesInSync"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Avidian Technologies Prophet"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Blackbaud The Raiser's Edge"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "HEAT Software GoldMine"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Maximizer Software Maximizer Enterprise"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "NetSuite NetCRM"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Salesforce.com Salesforce CRM"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Software on Sailboats Desktop Sales Manager"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Vanguard Software Vanguard Sales Manager"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "vtiger CRM"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Airtable"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Amazon Web Services AWS software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Blackboard software"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Yardi software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Database software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "FileMaker Pro"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Microsoft Access"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Microsoft SQL Server"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Oracle Database"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Savant MobileRanger"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Structured query language SQL"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Deacom ERP"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Microsoft Dynamics"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Oracle PeopleSoft"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "SAP software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Microsoft Dynamics GP"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "NetSuite ERP"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Oracle Fusion Applications"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Oracle Hyperion"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Oracle JD Edwards EnterpriseOne"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Oracle PeopleSoft Financials"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "SAP Business Objects"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Apple macOS"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Microsoft Windows"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Oracle Solaris"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Shell script"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Job control language JCL"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "IBM Cognos Impromptu"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Oracle Business Intelligence Enterprise Edition"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Qlik Tech QlikView"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Tableau"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "MicroStrategy"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "IBM SPSS Statistics"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Minitab"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "SAS"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "The MathWorks MATLAB"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "StataCorp Stata"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "IBM Notes"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Microsoft Exchange"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Microsoft Outlook"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Mozilla Thunderbird"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Fund accounting software"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Intuit QuickBooks"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Sage 50 Accounting"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Tax software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Apple Final Cut Pro"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Flipgrid"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Screencastify"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "YouTube"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Evernote"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Google Docs"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Microsoft OneNote"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Microsoft Word"
+    }
+  ],
   "title": "General and Operations Managers",
   "work_activities": [
     {

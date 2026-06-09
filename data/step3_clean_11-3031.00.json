@@ -205,8 +205,260 @@
       "element_name": "Management of Personnel Resources"
     }
   ],
-  "tasks": [],
-  "technology_skills": [],
+  "tasks": [
+    {
+      "task": "Establish and maintain relationships with individual or business customers or provide assistance with problems these customers may encounter."
+    },
+    {
+      "task": "Oversee the flow of cash or financial instruments."
+    },
+    {
+      "task": "Plan, direct, or coordinate the activities of workers in branches, offices, or departments of establishments, such as branch banks, brokerage firms, risk and insurance departments, or credit departments."
+    },
+    {
+      "task": "Recruit staff members."
+    },
+    {
+      "task": "Evaluate data pertaining to costs to plan budgets."
+    },
+    {
+      "task": "Oversee training programs."
+    },
+    {
+      "task": "Establish procedures for custody or control of assets, records, loan collateral, or securities to ensure safekeeping."
+    },
+    {
+      "task": "Communicate with stockholders or other investors to provide information or to raise capital."
+    },
+    {
+      "task": "Develop or analyze information to assess the current or future financial status of firms."
+    },
+    {
+      "task": "Approve, reject, or coordinate the approval or rejection of lines of credit or commercial, real estate, or personal loans."
+    }
+  ],
+  "technology_skills": [
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Microsoft Dynamics"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Oracle PeopleSoft"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": true,
+      "workplace_example": "SAP software"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Workday software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Microsoft Dynamics GP"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "NetSuite ERP"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Oracle Fusion Applications"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Oracle Hyperion"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Oracle JD Edwards EnterpriseOne"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Oracle PeopleSoft Financials"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "SAP Business Objects"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": true,
+      "workplace_example": "Microsoft PowerPoint"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Microsoft SQL Server"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Oracle Database"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Structured query language SQL"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Yardi software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Database software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "FileMaker Pro"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Microsoft Access"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Alteryx software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "IBM Cognos Impromptu"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Oracle Business Intelligence Enterprise Edition"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Tableau"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "MicroStrategy"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Qlik Tech QlikView"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Accounts receivable software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Fund accounting software"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Intuit QuickBooks"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Sage 50 Accounting"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Tax software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "ARES Corporation PRISM Project Estimator"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Credit management software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Delphi Technology"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Oracle E-Business Suite Financials"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "IBM Notes"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Microsoft Exchange"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": true,
+      "workplace_example": "Microsoft Outlook"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "ADP Workforce Now"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Human resource information system (HRIS)"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Human resource management software HRMS"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": true,
+      "workplace_example": "Microsoft Excel"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Moody's KMV FAMAS"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Adobe Acrobat"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Microsoft SharePoint"
+    }
+  ],
   "title": "Financial Managers",
   "work_activities": [
     {

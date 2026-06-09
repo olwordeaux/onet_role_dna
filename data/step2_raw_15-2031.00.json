@@ -286,8 +286,505 @@
       "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/skills/2.B.4.g"
     }
   ],
-  "tasks": [],
-  "technology_skills": [],
+  "tasks": [
+    {
+      "category": "Core",
+      "id": "20952",
+      "importance": 91,
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/tasks/20952",
+      "title": "Present the results of mathematical modeling and data analysis to management or other end users."
+    },
+    {
+      "category": "Core",
+      "id": "7382",
+      "importance": 89,
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/tasks/7382",
+      "title": "Define data requirements, and gather and validate information, applying judgment and statistical tests."
+    },
+    {
+      "category": "Core",
+      "id": "7380",
+      "importance": 88,
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/tasks/7380",
+      "title": "Perform validation and testing of models to ensure adequacy, and reformulate models, as necessary."
+    },
+    {
+      "category": "Core",
+      "id": "7384",
+      "importance": 88,
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/tasks/7384",
+      "title": "Prepare management reports defining and evaluating problems and recommending solutions."
+    },
+    {
+      "category": "Core",
+      "id": "7378",
+      "importance": 86,
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/tasks/7378",
+      "title": "Collaborate with others in the organization to ensure successful implementation of chosen problem solutions."
+    },
+    {
+      "category": "Core",
+      "id": "7377",
+      "importance": 85,
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/tasks/7377",
+      "title": "Formulate mathematical or simulation models of problems, relating constants and variables, restrictions, alternatives, conflicting objectives, and their numerical parameters."
+    },
+    {
+      "category": "Core",
+      "id": "7387",
+      "importance": 85,
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/tasks/7387",
+      "title": "Observe the current system in operation, and gather and analyze information about each of the component problems, using a variety of sources."
+    },
+    {
+      "category": "Core",
+      "id": "7379",
+      "importance": 83,
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/tasks/7379",
+      "title": "Analyze information obtained from management to conceptualize and define operational problems."
+    },
+    {
+      "category": "Core",
+      "id": "7383",
+      "importance": 82,
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/tasks/7383",
+      "title": "Study and analyze information about alternative courses of action to determine which plan will offer the best outcomes."
+    },
+    {
+      "category": "Core",
+      "id": "7381",
+      "importance": 81,
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/tasks/7381",
+      "title": "Collaborate with senior managers and decision makers to identify and solve a variety of problems and to clarify management objectives."
+    }
+  ],
+  "technology_skills": [
+    {
+      "code": 43232605,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/IBM%20SPSS%20Statistics",
+          "title": "IBM SPSS Statistics"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/ILOG%20OPL-CPLEX%20Development%20System",
+          "title": "ILOG OPL-CPLEX Development System"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Minitab",
+          "title": "Minitab"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/The%20MathWorks%20MATLAB",
+          "title": "The MathWorks MATLAB"
+        }
+      ],
+      "example_more": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/A%20mathematical%20programming%20language%20AMPL",
+          "title": "A mathematical programming language AMPL"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Claritas%20PRIZM%20NE",
+          "title": "Claritas PRIZM NE"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/General%20algebraic%20modeling%20system%20GAMS",
+          "title": "General algebraic modeling system GAMS"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Hyperion%20Solutions%20Hyperion%20Intelligence",
+          "title": "Hyperion Solutions Hyperion Intelligence"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Imagine%20That%20Extend%20OR",
+          "title": "Imagine That Extend OR"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Insightful%20S-PLUS",
+          "title": "Insightful S-PLUS"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/LINDO%20Systems%20LINGO",
+          "title": "LINDO Systems LINGO"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/MathWorks%20Simulink",
+          "title": "MathWorks Simulink"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Mesquite%20Software%20CSIM",
+          "title": "Mesquite Software CSIM"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Mixed%20integer%20optimizer%20MINTO",
+          "title": "Mixed integer optimizer MINTO"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Rockwell%20Automation%20Arena",
+          "title": "Rockwell Automation Arena"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/SAS",
+          "title": "SAS"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Stanford%20Business%20Software%20MINOS",
+          "title": "Stanford Business Software MINOS"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Stanford%20Business%20Software%20SNOPT",
+          "title": "Stanford Business Software SNOPT"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/StataCorp%20Stata",
+          "title": "StataCorp Stata"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Telelogic%20System%20Architect",
+          "title": "Telelogic System Architect"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Wolfram%20Research%20Mathematica",
+          "title": "Wolfram Research Mathematica"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/technology_skills/43232605",
+      "title": "Analytical or scientific software"
+    },
+    {
+      "code": 43232104,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Google%20Docs",
+          "title": "Google Docs"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Word",
+          "title": "Microsoft Word"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/technology_skills/43232104",
+      "title": "Word processing software"
+    },
+    {
+      "code": 43233004,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Apple%20macOS",
+          "title": "Apple macOS"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Bash",
+          "title": "Bash"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Shell%20script",
+          "title": "Shell script"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/UNIX%20Shell",
+          "title": "UNIX Shell"
+        }
+      ],
+      "example_more": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Cisco%20IOS",
+          "title": "Cisco IOS"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Hewlett%20Packard%20HP-UX",
+          "title": "Hewlett Packard HP-UX"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Job%20control%20language%20JCL",
+          "title": "Job control language JCL"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Linux",
+          "title": "Linux"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20Solaris",
+          "title": "Oracle Solaris"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/UNIX",
+          "title": "UNIX"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/technology_skills/43233004",
+      "title": "Operating system software"
+    },
+    {
+      "code": 43232405,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Perl",
+          "title": "Perl"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/R",
+          "title": "R"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Scala",
+          "title": "Scala"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Swift",
+          "title": "Swift"
+        }
+      ],
+      "example_more": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/C%2B%2B",
+          "title": "C++"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Jupyter%20Notebook",
+          "title": "Jupyter Notebook"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Python",
+          "in_demand": true,
+          "percentage": 5,
+          "title": "Python"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/SAP%20PowerBuilder",
+          "title": "SAP PowerBuilder"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Sun%20Microsystems%20Java",
+          "title": "Sun Microsystems Java"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/technology_skills/43232405",
+      "title": "Object or component oriented development software"
+    },
+    {
+      "code": 43232306,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Amazon%20Redshift",
+          "title": "Amazon Redshift"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20SQL%20Server",
+          "title": "Microsoft SQL Server"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/MySQL",
+          "title": "MySQL"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Structured%20query%20language%20SQL",
+          "in_demand": true,
+          "percentage": 11,
+          "title": "Structured query language SQL"
+        }
+      ],
+      "example_more": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Data%20entry%20software",
+          "title": "Data entry software"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Database%20software",
+          "title": "Database software"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/FileMaker%20Pro",
+          "title": "FileMaker Pro"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Access",
+          "title": "Microsoft Access"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/technology_skills/43232306",
+      "title": "Data base user interface and query software"
+    },
+    {
+      "code": 43231602,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Microsoft%20Dynamics",
+          "title": "Microsoft Dynamics"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Oracle%20PeopleSoft",
+          "title": "Oracle PeopleSoft"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/SAP%20Business%20Objects",
+          "title": "SAP Business Objects"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/SAP%20software",
+          "title": "SAP software"
+        }
+      ],
+      "example_more": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/NetSuite%20ERP",
+          "title": "NetSuite ERP"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20Hyperion",
+          "title": "Oracle Hyperion"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20JD%20Edwards%20EnterpriseOne",
+          "title": "Oracle JD Edwards EnterpriseOne"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/technology_skills/43231602",
+      "title": "Enterprise resource planning ERP software"
+    },
+    {
+      "code": 43232314,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/IBM%20Cognos%20Impromptu",
+          "title": "IBM Cognos Impromptu"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Power%20BI",
+          "in_demand": true,
+          "percentage": 10,
+          "title": "Microsoft Power BI"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20Business%20Intelligence%20Enterprise%20Edition",
+          "title": "Oracle Business Intelligence Enterprise Edition"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Tableau",
+          "in_demand": true,
+          "percentage": 10,
+          "title": "Tableau"
+        }
+      ],
+      "example_more": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/MicroStrategy",
+          "title": "MicroStrategy"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Qlik%20Tech%20QlikView",
+          "title": "Qlik Tech QlikView"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/technology_skills/43232314",
+      "title": "Business intelligence and data analysis software"
+    },
+    {
+      "code": 43232402,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/C",
+          "title": "C"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Visual%20Basic",
+          "title": "Microsoft Visual Basic"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Visual%20Basic%20for%20Applications%20VBA",
+          "title": "Microsoft Visual Basic for Applications VBA"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/National%20Instruments%20LabVIEW",
+          "title": "National Instruments LabVIEW"
+        }
+      ],
+      "example_more": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Microsoft%20Visual%20Basic%20Scripting%20Edition%20VBScript",
+          "title": "Microsoft Visual Basic Scripting Edition VBScript"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/technology_skills/43232402",
+      "title": "Development environment software"
+    },
+    {
+      "code": 43232304,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Apache%20Hadoop",
+          "title": "Apache Hadoop"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Apache%20Hive",
+          "title": "Apache Hive"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Apache%20Pig",
+          "title": "Apache Pig"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Teradata%20Database",
+          "title": "Teradata Database"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/technology_skills/43232304",
+      "title": "Data base management system software"
+    },
+    {
+      "code": 43232510,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/ESRI%20ArcExplorer",
+          "title": "ESRI ArcExplorer"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/ESRI%20ArcGIS%20software",
+          "title": "ESRI ArcGIS software"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Geographic%20information%20system%20GIS%20software",
+          "title": "Geographic information system GIS software"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/technology_skills/43232510",
+      "title": "Geographic information system"
+    }
+  ],
   "title": "Operations Research Analysts",
   "work_activities": [
     {

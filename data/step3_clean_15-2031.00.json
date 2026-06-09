@@ -205,8 +205,415 @@
       "element_name": "Systems Analysis"
     }
   ],
-  "tasks": [],
-  "technology_skills": [],
+  "tasks": [
+    {
+      "task": "Present the results of mathematical modeling and data analysis to management or other end users."
+    },
+    {
+      "task": "Define data requirements, and gather and validate information, applying judgment and statistical tests."
+    },
+    {
+      "task": "Perform validation and testing of models to ensure adequacy, and reformulate models, as necessary."
+    },
+    {
+      "task": "Prepare management reports defining and evaluating problems and recommending solutions."
+    },
+    {
+      "task": "Collaborate with others in the organization to ensure successful implementation of chosen problem solutions."
+    },
+    {
+      "task": "Formulate mathematical or simulation models of problems, relating constants and variables, restrictions, alternatives, conflicting objectives, and their numerical parameters."
+    },
+    {
+      "task": "Observe the current system in operation, and gather and analyze information about each of the component problems, using a variety of sources."
+    },
+    {
+      "task": "Analyze information obtained from management to conceptualize and define operational problems."
+    },
+    {
+      "task": "Study and analyze information about alternative courses of action to determine which plan will offer the best outcomes."
+    },
+    {
+      "task": "Collaborate with senior managers and decision makers to identify and solve a variety of problems and to clarify management objectives."
+    }
+  ],
+  "technology_skills": [
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "IBM SPSS Statistics"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "ILOG OPL-CPLEX Development System"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Minitab"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "The MathWorks MATLAB"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "A mathematical programming language AMPL"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Claritas PRIZM NE"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "General algebraic modeling system GAMS"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Hyperion Solutions Hyperion Intelligence"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Imagine That Extend OR"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Insightful S-PLUS"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "LINDO Systems LINGO"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "MathWorks Simulink"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Mesquite Software CSIM"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Mixed integer optimizer MINTO"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Rockwell Automation Arena"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "SAS"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Stanford Business Software MINOS"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Stanford Business Software SNOPT"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "StataCorp Stata"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Telelogic System Architect"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Wolfram Research Mathematica"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Google Docs"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Microsoft Word"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Apple macOS"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Bash"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Shell script"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "UNIX Shell"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Cisco IOS"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Hewlett Packard HP-UX"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Job control language JCL"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Linux"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Oracle Solaris"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "UNIX"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Perl"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "R"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Scala"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Swift"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "C++"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Jupyter Notebook"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": true,
+      "workplace_example": "Python"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "SAP PowerBuilder"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Sun Microsystems Java"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Amazon Redshift"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Microsoft SQL Server"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "MySQL"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": true,
+      "workplace_example": "Structured query language SQL"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Data entry software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Database software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "FileMaker Pro"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Microsoft Access"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Microsoft Dynamics"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Oracle PeopleSoft"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "SAP Business Objects"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "SAP software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "NetSuite ERP"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Oracle Hyperion"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Oracle JD Edwards EnterpriseOne"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "IBM Cognos Impromptu"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": true,
+      "workplace_example": "Microsoft Power BI"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Oracle Business Intelligence Enterprise Edition"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": true,
+      "workplace_example": "Tableau"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "MicroStrategy"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Qlik Tech QlikView"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "C"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Microsoft Visual Basic"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Microsoft Visual Basic for Applications VBA"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "National Instruments LabVIEW"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Microsoft Visual Basic Scripting Edition VBScript"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Apache Hadoop"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Apache Hive"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Apache Pig"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Teradata Database"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "ESRI ArcExplorer"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "ESRI ArcGIS software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Geographic information system GIS software"
+    }
+  ],
   "title": "Operations Research Analysts",
   "work_activities": [
     {

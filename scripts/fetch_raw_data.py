@@ -35,8 +35,8 @@ ENDPOINTS = {
     "interests": "interests",
     "education": "education",
     "job_zone": "job_zone",
-    "tasks": "task_statements",
-    "technology_skills": "software_skills",
+    "tasks": "tasks",
+    "technology_skills": "technology_skills",
 }
 
 

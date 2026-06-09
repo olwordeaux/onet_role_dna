@@ -39,8 +39,90 @@
   },
   "knowledge": [],
   "skills": [],
-  "tasks": [],
-  "technology_skills": [],
+  "tasks": [
+    {
+      "task": "Answer customers' questions about services, prices, availability, or credit terms."
+    },
+    {
+      "task": "Attend sales or trade meetings or read related publications to obtain information about market conditions, business trends, regulations, or industry developments."
+    },
+    {
+      "task": "Compute and compare costs of services."
+    },
+    {
+      "task": "Consult with clients after sales or contract signings to resolve problems and provide ongoing support."
+    },
+    {
+      "task": "Contact prospective or existing customers to discuss how services can meet their needs."
+    },
+    {
+      "task": "Create forms or agreements to complete sales."
+    },
+    {
+      "task": "Develop sales presentations or proposals to explain service specifications."
+    },
+    {
+      "task": "Distribute promotional materials at meetings, conferences, or trade shows."
+    },
+    {
+      "task": "Emphasize or recommend service features based on knowledge of customers' needs and vendor capabilities and limitations."
+    },
+    {
+      "task": "Identify prospective customers using business directories, leads from clients, or information from conferences or trade shows."
+    }
+  ],
+  "technology_skills": [
+    {
+      "hot_technology": true,
+      "in_demand": true,
+      "workplace_example": "Microsoft Excel"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "JamBoard"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Microsoft Outlook"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Microsoft Dynamics"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": true,
+      "workplace_example": "Salesforce software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Enterprise application integration EAI software"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": true,
+      "workplace_example": "Microsoft Office software"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Apple macOS"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Microsoft Word"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "HubSpot software"
+    }
+  ],
   "title": "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
   "work_activities": [],
   "work_context": [],

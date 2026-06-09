@@ -288,8 +288,454 @@
       "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/skills/2.B.2.i"
     }
   ],
-  "tasks": [],
-  "technology_skills": [],
+  "tasks": [
+    {
+      "category": "Core",
+      "id": "20699",
+      "importance": 80,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/tasks/20699",
+      "title": "Review financial statements, sales or activity reports, or other performance data to measure productivity or goal achievement or to identify areas needing cost reduction or program improvement."
+    },
+    {
+      "category": "Core",
+      "id": "933",
+      "importance": 79,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/tasks/933",
+      "title": "Direct and coordinate activities of businesses or departments concerned with the production, pricing, sales, or distribution of products."
+    },
+    {
+      "category": "Core",
+      "id": "20700",
+      "importance": 75,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/tasks/20700",
+      "title": "Direct administrative activities directly related to making products or providing services."
+    },
+    {
+      "category": "Core",
+      "id": "20701",
+      "importance": 75,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/tasks/20701",
+      "title": "Prepare staff work schedules and assign specific duties."
+    },
+    {
+      "category": "Core",
+      "id": "20703",
+      "importance": 73,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/tasks/20703",
+      "title": "Direct or coordinate financial or budget activities to fund operations, maximize investments, or increase efficiency."
+    },
+    {
+      "category": "Core",
+      "id": "20706",
+      "importance": 71,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/tasks/20706",
+      "title": "Plan or direct activities, such as sales promotions, that require coordination with other department managers."
+    },
+    {
+      "category": "Core",
+      "id": "20705",
+      "importance": 70,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/tasks/20705",
+      "title": "Perform personnel functions, such as selection, training, or evaluation."
+    },
+    {
+      "category": "Core",
+      "id": "20704",
+      "importance": 69,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/tasks/20704",
+      "title": "Establish or implement departmental policies, goals, objectives, or procedures in conjunction with board members, organization officials, or staff members."
+    },
+    {
+      "category": "Core",
+      "id": "20702",
+      "importance": 61,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/tasks/20702",
+      "title": "Monitor suppliers to ensure that they efficiently and effectively provide needed goods or services within budgetary limits."
+    },
+    {
+      "category": "Supplemental",
+      "id": "20708",
+      "importance": 76,
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/tasks/20708",
+      "title": "Manage the movement of goods into and out of production facilities to ensure efficiency, effectiveness, or sustainability of operations."
+    }
+  ],
+  "technology_skills": [
+    {
+      "code": 43232303,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Act!",
+          "title": "Act!"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20Eloqua",
+          "title": "Oracle Eloqua"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Salesforce%20software",
+          "title": "Salesforce software"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Sugar%20CRM",
+          "title": "Sugar CRM"
+        }
+      ],
+      "example_more": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/ActionWare",
+          "title": "ActionWare"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/AMG%20Teleran%20SalesInSync",
+          "title": "AMG Teleran SalesInSync"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Avidian%20Technologies%20Prophet",
+          "title": "Avidian Technologies Prophet"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Blackbaud%20The%20Raiser's%20Edge",
+          "title": "Blackbaud The Raiser's Edge"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/HEAT%20Software%20GoldMine",
+          "title": "HEAT Software GoldMine"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Maximizer%20Software%20Maximizer%20Enterprise",
+          "title": "Maximizer Software Maximizer Enterprise"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/NetSuite%20NetCRM",
+          "title": "NetSuite NetCRM"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Salesforce.com%20Salesforce%20CRM",
+          "title": "Salesforce.com Salesforce CRM"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Software%20on%20Sailboats%20Desktop%20Sales%20Manager",
+          "title": "Software on Sailboats Desktop Sales Manager"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Vanguard%20Software%20Vanguard%20Sales%20Manager",
+          "title": "Vanguard Software Vanguard Sales Manager"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/vtiger%20CRM",
+          "title": "vtiger CRM"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/technology_skills/43232303",
+      "title": "Customer relationship management CRM software"
+    },
+    {
+      "code": 43232306,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Airtable",
+          "title": "Airtable"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Amazon%20Web%20Services%20AWS%20software",
+          "title": "Amazon Web Services AWS software"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Blackboard%20software",
+          "title": "Blackboard software"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Yardi%20software",
+          "title": "Yardi software"
+        }
+      ],
+      "example_more": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Database%20software",
+          "title": "Database software"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/FileMaker%20Pro",
+          "title": "FileMaker Pro"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Access",
+          "title": "Microsoft Access"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20SQL%20Server",
+          "title": "Microsoft SQL Server"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Oracle%20Database",
+          "title": "Oracle Database"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Savant%20MobileRanger",
+          "title": "Savant MobileRanger"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Structured%20query%20language%20SQL",
+          "title": "Structured query language SQL"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/technology_skills/43232306",
+      "title": "Data base user interface and query software"
+    },
+    {
+      "code": 43231602,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Deacom%20ERP",
+          "title": "Deacom ERP"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Microsoft%20Dynamics",
+          "title": "Microsoft Dynamics"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Oracle%20PeopleSoft",
+          "title": "Oracle PeopleSoft"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/SAP%20software",
+          "title": "SAP software"
+        }
+      ],
+      "example_more": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Microsoft%20Dynamics%20GP",
+          "title": "Microsoft Dynamics GP"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/NetSuite%20ERP",
+          "title": "NetSuite ERP"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20Fusion%20Applications",
+          "title": "Oracle Fusion Applications"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20Hyperion",
+          "title": "Oracle Hyperion"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20JD%20Edwards%20EnterpriseOne",
+          "title": "Oracle JD Edwards EnterpriseOne"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20PeopleSoft%20Financials",
+          "title": "Oracle PeopleSoft Financials"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/SAP%20Business%20Objects",
+          "title": "SAP Business Objects"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/technology_skills/43231602",
+      "title": "Enterprise resource planning ERP software"
+    },
+    {
+      "code": 43233004,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Apple%20macOS",
+          "title": "Apple macOS"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Windows",
+          "title": "Microsoft Windows"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20Solaris",
+          "title": "Oracle Solaris"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Shell%20script",
+          "title": "Shell script"
+        }
+      ],
+      "example_more": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Job%20control%20language%20JCL",
+          "title": "Job control language JCL"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/technology_skills/43233004",
+      "title": "Operating system software"
+    },
+    {
+      "code": 43232314,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/IBM%20Cognos%20Impromptu",
+          "title": "IBM Cognos Impromptu"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Oracle%20Business%20Intelligence%20Enterprise%20Edition",
+          "title": "Oracle Business Intelligence Enterprise Edition"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Qlik%20Tech%20QlikView",
+          "title": "Qlik Tech QlikView"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Tableau",
+          "title": "Tableau"
+        }
+      ],
+      "example_more": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/MicroStrategy",
+          "title": "MicroStrategy"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/technology_skills/43232314",
+      "title": "Business intelligence and data analysis software"
+    },
+    {
+      "code": 43232605,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/IBM%20SPSS%20Statistics",
+          "title": "IBM SPSS Statistics"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Minitab",
+          "title": "Minitab"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/SAS",
+          "title": "SAS"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/The%20MathWorks%20MATLAB",
+          "title": "The MathWorks MATLAB"
+        }
+      ],
+      "example_more": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/StataCorp%20Stata",
+          "title": "StataCorp Stata"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/technology_skills/43232605",
+      "title": "Analytical or scientific software"
+    },
+    {
+      "code": 43233501,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/IBM%20Notes",
+          "title": "IBM Notes"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Microsoft%20Exchange",
+          "title": "Microsoft Exchange"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Outlook",
+          "title": "Microsoft Outlook"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Mozilla%20Thunderbird",
+          "title": "Mozilla Thunderbird"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/technology_skills/43233501",
+      "title": "Electronic mail software"
+    },
+    {
+      "code": 43231601,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Fund%20accounting%20software",
+          "title": "Fund accounting software"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Intuit%20QuickBooks",
+          "title": "Intuit QuickBooks"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Sage%2050%20Accounting",
+          "title": "Sage 50 Accounting"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Tax%20software",
+          "title": "Tax software"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/technology_skills/43231601",
+      "title": "Accounting software"
+    },
+    {
+      "code": 43232103,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Apple%20Final%20Cut%20Pro",
+          "title": "Apple Final Cut Pro"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Flipgrid",
+          "title": "Flipgrid"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Screencastify",
+          "title": "Screencastify"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/YouTube",
+          "title": "YouTube"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/technology_skills/43232103",
+      "title": "Video creation and editing software"
+    },
+    {
+      "code": 43232104,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Evernote",
+          "title": "Evernote"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Google%20Docs",
+          "title": "Google Docs"
+        },
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Microsoft%20OneNote",
+          "title": "Microsoft OneNote"
+        },
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Word",
+          "title": "Microsoft Word"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/11-1021.00/related/technology_skills/43232104",
+      "title": "Word processing software"
+    }
+  ],
   "title": "General and Operations Managers",
   "work_activities": [
     {

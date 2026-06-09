@@ -205,8 +205,440 @@
       "element_name": "Active Learning"
     }
   ],
-  "tasks": [],
-  "technology_skills": [],
+  "tasks": [
+    {
+      "task": "Meet with applicants to obtain information for loan applications and to answer questions about the process."
+    },
+    {
+      "task": "Analyze applicants' financial status, credit, and property evaluations to determine feasibility of granting loans."
+    },
+    {
+      "task": "Approve loans within specified limits, and refer loan applications outside those limits to management for approval."
+    },
+    {
+      "task": "Explain to customers the different types of loans and credit options that are available, as well as the terms of those services."
+    },
+    {
+      "task": "Submit applications to credit analysts for verification and recommendation."
+    },
+    {
+      "task": "Review loan agreements to ensure that they are complete and accurate according to policy."
+    },
+    {
+      "task": "Review and update credit and loan files."
+    },
+    {
+      "task": "Obtain and compile copies of loan applicants' credit histories, corporate financial statements, and other financial information."
+    },
+    {
+      "task": "Work with clients to identify their financial goals and to find ways of reaching those goals."
+    },
+    {
+      "task": "Handle customer complaints and take appropriate action to resolve them."
+    }
+  ],
+  "technology_skills": [
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "FileMaker Pro"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Microsoft Access"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Student information systems SIS software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Sungard Higher Education PowerFAIDS"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "EDExpress"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "ELM Resources ELM"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "EMT Applications CounselorMax"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Financial aid management system FAM"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "SunGard Higher Education Banner Financial Aid"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Zoom"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Delphi Discovery"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Experian Credinomics"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "VueCentric MortgageDashboard"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "White Clarke North America Credit Adjudication and Lending Management"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "1003 Uniform Residential Loan Application"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Amortization loan software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Bankers Systems Rembrandt Lending System"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "California Infinite LPS"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Calyx Point"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "CGI-AMS CACS Enterprise"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "CGI-AMS Strata"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Click1003 Online Mortgage Application"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Credit and risk analysis software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Credit fraud detection software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Credit underwriting software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Dun and Bradstreet Global DecisionMaker"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Dynamic Loanledger"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "eCredit Enterprise"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Ellie Mae Contour"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Ellie Mae Genesis"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Equifax Advanced Decisioning"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Equifax InterConnect"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Experian Detect"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Experian FraudShield"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Experian Quest"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Experian Retention Triggers"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Fair Isaac Application Risk Model Software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Fair Isaac Capstone Decision Manager"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Fair Isaac Falcon ID"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Fannie Mae Desktop Underwriter"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "FAS Loan Service Plus"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Financial Industry Computer Systems Loan Originator"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Financial Industry Computer Systems Loan Producer"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Freddie Mac Loan Prospector"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Harland Financial Solutions DecisionPro"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Harland Interlinq MortgageWare"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "IA Systems StreamLend"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Indus Lending Solutions"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Integra Destiny Loan Origination"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "LA PRO Loan Administrator Pro"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Loan application processing software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Loan origination software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Moody's KMV CreditEdge"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Moody's KMV Decisions"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Moody's KMV Financial Analyst"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Moody's KMV Risk Advisor"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Moody's KMV Risk Analyst"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Opportunity management system OMS"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Plimus Loan Artist"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "QuikDraw Loan Management System"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "RealBenefits Amortization Loan"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Technicost LOS"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "The Mortgage Office Loan Origination"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "The Mortgage Office Loan Servicing"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Bottom Line LoanMaster Loan Servicing"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Financial Industry Computer Systems Loan Accountant"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Tax software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Datatel Colleague"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "Oracle PeopleSoft"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": false,
+      "workplace_example": "SAP software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Equifax Application Engine"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Experian Transact SM"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "IBM Notes"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": true,
+      "workplace_example": "Microsoft Outlook"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Experian Strategy Management"
+    },
+    {
+      "hot_technology": true,
+      "in_demand": true,
+      "workplace_example": "Microsoft Office software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Microsoft Internet Explorer"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "Web browser software"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "CGI-AMS BureauLink Enterprise"
+    },
+    {
+      "hot_technology": false,
+      "in_demand": false,
+      "workplace_example": "LexisNexis"
+    }
+  ],
   "title": "Loan Officers",
   "work_activities": [
     {

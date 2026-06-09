@@ -57,8 +57,193 @@
   },
   "knowledge": [],
   "skills": [],
-  "tasks": [],
-  "technology_skills": [],
+  "tasks": [
+    {
+      "category": "New",
+      "id": "23222",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/tasks/23222",
+      "title": "Answer customers' questions about services, prices, availability, or credit terms."
+    },
+    {
+      "category": "New",
+      "id": "23223",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/tasks/23223",
+      "title": "Attend sales or trade meetings or read related publications to obtain information about market conditions, business trends, regulations, or industry developments."
+    },
+    {
+      "category": "New",
+      "id": "23224",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/tasks/23224",
+      "title": "Compute and compare costs of services."
+    },
+    {
+      "category": "New",
+      "id": "23225",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/tasks/23225",
+      "title": "Consult with clients after sales or contract signings to resolve problems and provide ongoing support."
+    },
+    {
+      "category": "New",
+      "id": "23226",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/tasks/23226",
+      "title": "Contact prospective or existing customers to discuss how services can meet their needs."
+    },
+    {
+      "category": "New",
+      "id": "23227",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/tasks/23227",
+      "title": "Create forms or agreements to complete sales."
+    },
+    {
+      "category": "New",
+      "id": "23228",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/tasks/23228",
+      "title": "Develop sales presentations or proposals to explain service specifications."
+    },
+    {
+      "category": "New",
+      "id": "23229",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/tasks/23229",
+      "title": "Distribute promotional materials at meetings, conferences, or trade shows."
+    },
+    {
+      "category": "New",
+      "id": "23230",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/tasks/23230",
+      "title": "Emphasize or recommend service features based on knowledge of customers' needs and vendor capabilities and limitations."
+    },
+    {
+      "category": "New",
+      "id": "23231",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/tasks/23231",
+      "title": "Identify prospective customers using business directories, leads from clients, or information from conferences or trade shows."
+    }
+  ],
+  "technology_skills": [
+    {
+      "code": 43232110,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Excel",
+          "in_demand": true,
+          "percentage": 7,
+          "title": "Microsoft Excel"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/technology_skills/43232110",
+      "title": "Spreadsheet software"
+    },
+    {
+      "code": 43232102,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/JamBoard",
+          "title": "JamBoard"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/technology_skills/43232102",
+      "title": "Graphics or photo imaging software"
+    },
+    {
+      "code": 43233501,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Outlook",
+          "title": "Microsoft Outlook"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/technology_skills/43233501",
+      "title": "Electronic mail software"
+    },
+    {
+      "code": 43231602,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Microsoft%20Dynamics",
+          "title": "Microsoft Dynamics"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/technology_skills/43231602",
+      "title": "Enterprise resource planning ERP software"
+    },
+    {
+      "code": 43232303,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Salesforce%20software",
+          "in_demand": true,
+          "percentage": 7,
+          "title": "Salesforce software"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/technology_skills/43232303",
+      "title": "Customer relationship management CRM software"
+    },
+    {
+      "code": 43232403,
+      "example": [
+        {
+          "href": "https://api-v2.onetcenter.org/online/technology/examples/Enterprise%20application%20integration%20EAI%20software",
+          "title": "Enterprise application integration EAI software"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/technology_skills/43232403",
+      "title": "Enterprise application integration software"
+    },
+    {
+      "code": 43231513,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Office%20software",
+          "in_demand": true,
+          "percentage": 9,
+          "title": "Microsoft Office software"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/technology_skills/43231513",
+      "title": "Office suite software"
+    },
+    {
+      "code": 43233004,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Apple%20macOS",
+          "title": "Apple macOS"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/technology_skills/43233004",
+      "title": "Operating system software"
+    },
+    {
+      "code": 43232104,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/Microsoft%20Word",
+          "title": "Microsoft Word"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/technology_skills/43232104",
+      "title": "Word processing software"
+    },
+    {
+      "code": 43231514,
+      "example": [
+        {
+          "hot_technology": true,
+          "href": "https://api-v2.onetcenter.org/online/hot_technology/HubSpot%20software",
+          "title": "HubSpot software"
+        }
+      ],
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/technology_skills/43231514",
+      "title": "Sales and marketing software"
+    }
+  ],
   "title": "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
   "work_activities": [],
   "work_context": [],
