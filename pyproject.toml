@@ -114,6 +114,7 @@ ignore = []
 "scripts/audit_clean_data.py" = ["T201", "BLE001"]
 "scripts/audit_normal_data.py" = ["T201", "BLE001"]
 "scripts/normalize_data.py" = ["T201", "BLE001"]
+"scripts/vectorize_data.py" = ["T201", "BLE001"]
 "scripts/save_codes.py" = ["T201"]
 
 [tool.coverage.run]
