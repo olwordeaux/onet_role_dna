@@ -117,6 +117,7 @@ ignore = []
 "scripts/combine_profiles.py" = ["T201", "BLE001"]
 "scripts/normalize_data.py" = ["T201", "BLE001"]
 "scripts/build_human_readable.py" = ["T201", "BLE001"]
+"scripts/build_career_trajectory.py" = ["T201", "BLE001"]
 "scripts/vectorize_data.py" = ["T201", "BLE001"]
 "scripts/save_codes.py" = ["T201"]
 
