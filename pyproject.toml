@@ -106,6 +106,7 @@ ignore = []
 "src/onet_role_dna/validator.py" = ["T201", "BLE001"]
 "src/onet_role_dna/hashing.py" = ["T201"]
 "src/onet_role_dna/writer.py" = ["T201"]
+"scripts/workspace_status.py" = ["T201", "BLE001"]
 
 [tool.coverage.run]
 branch = true
