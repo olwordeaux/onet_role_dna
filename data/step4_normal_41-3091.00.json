@@ -1,0 +1,99 @@
+{
+  "abilities": [],
+  "code": "41-3091.00",
+  "education": [],
+  "interests": [
+    {
+      "data_value": 0.96,
+      "element_id": "1.B.1.e",
+      "element_name": "Enterprising"
+    },
+    {
+      "data_value": 0.68,
+      "element_id": "1.B.1.f",
+      "element_name": "Conventional"
+    },
+    {
+      "data_value": 0.46,
+      "element_id": "1.B.1.d",
+      "element_name": "Social"
+    },
+    {
+      "data_value": 0.16,
+      "element_id": "1.B.1.b",
+      "element_name": "Investigative"
+    },
+    {
+      "data_value": 0.08,
+      "element_id": "1.B.1.c",
+      "element_name": "Artistic"
+    },
+    {
+      "data_value": 0.01,
+      "element_id": "1.B.1.a",
+      "element_name": "Realistic"
+    }
+  ],
+  "job_zone": {
+    "job_zone": 0.25
+  },
+  "knowledge": [],
+  "skills": [],
+  "tasks": [],
+  "technology_skills": [],
+  "title": "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
+  "work_activities": [],
+  "work_context": [],
+  "work_styles": [
+    {
+      "data_value": 1.0,
+      "element_id": "1.D.1.h",
+      "element_name": "Perseverance"
+    },
+    {
+      "data_value": 0.94,
+      "element_id": "1.D.2.f",
+      "element_name": "Social Orientation"
+    },
+    {
+      "data_value": 0.81,
+      "element_id": "1.D.1.b",
+      "element_name": "Achievement Orientation"
+    },
+    {
+      "data_value": 0.73,
+      "element_id": "1.D.1.g",
+      "element_name": "Self-Confidence"
+    },
+    {
+      "data_value": 0.69,
+      "element_id": "1.D.3.c",
+      "element_name": "Dependability"
+    },
+    {
+      "data_value": 0.66,
+      "element_id": "1.D.2.e",
+      "element_name": "Optimism"
+    },
+    {
+      "data_value": 0.65,
+      "element_id": "1.D.1.e",
+      "element_name": "Initiative"
+    },
+    {
+      "data_value": 0.57,
+      "element_id": "1.D.1.f",
+      "element_name": "Adaptability"
+    },
+    {
+      "data_value": 0.55,
+      "element_id": "1.D.4.b",
+      "element_name": "Self-Control"
+    },
+    {
+      "data_value": 0.54,
+      "element_id": "1.D.4.a",
+      "element_name": "Stress Tolerance"
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "abilities": [
+    {
+      "data_value": 0.78,
+      "element_id": "1.A.1.a.1",
+      "element_name": "Oral Comprehension"
+    },
+    {
+      "data_value": 0.78,
+      "element_id": "1.A.1.a.3",
+      "element_name": "Oral Expression"
+    },
+    {
+      "data_value": 0.78,
+      "element_id": "1.A.1.a.2",
+      "element_name": "Written Comprehension"
+    },
+    {
+      "data_value": 0.75,
+      "element_id": "1.A.1.b.4",
+      "element_name": "Deductive Reasoning"
+    },
+    {
+      "data_value": 0.75,
+      "element_id": "1.A.4.b.5",
+      "element_name": "Speech Clarity"
+    },
+    {
+      "data_value": 0.72,
+      "element_id": "1.A.1.b.5",
+      "element_name": "Inductive Reasoning"
+    },
+    {
+      "data_value": 0.72,
+      "element_id": "1.A.1.b.3",
+      "element_name": "Problem Sensitivity"
+    },
+    {
+      "data_value": 0.72,
+      "element_id": "1.A.1.a.4",
+      "element_name": "Written Expression"
+    },
+    {
+      "data_value": 0.69,
+      "element_id": "1.A.1.b.6",
+      "element_name": "Information Ordering"
+    },
+    {
+      "data_value": 0.69,
+      "element_id": "1.A.4.a.1",
+      "element_name": "Near Vision"
+    }
+  ],
+  "code": "11-3031.00",
+  "education": [
+    {
+      "data_value": 0.56,
+      "element_name": "Bachelor’s degree"
+    },
+    {
+      "data_value": 0.21,
+      "element_name": "Post-baccalaureate certificate"
+    },
+    {
+      "data_value": 0.14,
+      "element_name": "High school diploma or equivalent"
+    }
+  ],
+  "interests": [
+    {
+      "data_value": 1.0,
+      "element_id": "1.B.1.e",
+      "element_name": "Enterprising"
+    },
+    {
+      "data_value": 0.76,
+      "element_id": "1.B.1.f",
+      "element_name": "Conventional"
+    },
+    {
+      "data_value": 0.34,
+      "element_id": "1.B.1.d",
+      "element_name": "Social"
+    },
+    {
+      "data_value": 0.24,
+      "element_id": "1.B.1.b",
+      "element_name": "Investigative"
+    },
+    {
+      "data_value": 0.1,
+      "element_id": "1.B.1.c",
+      "element_name": "Artistic"
+    },
+    {
+      "data_value": 0.06,
+      "element_id": "1.B.1.a",
+      "element_name": "Realistic"
+    }
+  ],
+  "job_zone": {
+    "job_zone": 0.75
+  },
+  "knowledge": [
+    {
+      "data_value": 0.92,
+      "element_id": "2.C.1.e",
+      "element_name": "Customer and Personal Service"
+    },
+    {
+      "data_value": 0.83,
+      "element_id": "2.C.1.a",
+      "element_name": "Administration and Management"
+    },
+    {
+      "data_value": 0.77,
+      "element_id": "2.C.1.c",
+      "element_name": "Economics and Accounting"
+    },
+    {
+      "data_value": 0.68,
+      "element_id": "2.C.1.b",
+      "element_name": "Administrative"
+    },
+    {
+      "data_value": 0.68,
+      "element_id": "2.C.4.a",
+      "element_name": "Mathematics"
+    },
+    {
+      "data_value": 0.65,
+      "element_id": "2.C.8.b",
+      "element_name": "Law and Government"
+    },
+    {
+      "data_value": 0.63,
+      "element_id": "2.C.1.f",
+      "element_name": "Personnel and Human Resources"
+    },
+    {
+      "data_value": 0.59,
+      "element_id": "2.C.1.d",
+      "element_name": "Sales and Marketing"
+    },
+    {
+      "data_value": 0.58,
+      "element_id": "2.C.7.a",
+      "element_name": "English Language"
+    },
+    {
+      "data_value": 0.57,
+      "element_id": "2.C.6",
+      "element_name": "Education and Training"
+    }
+  ],
+  "skills": [
+    {
+      "data_value": 0.75,
+      "element_id": "2.A.1.b",
+      "element_name": "Active Listening"
+    },
+    {
+      "data_value": 0.75,
+      "element_id": "2.A.2.a",
+      "element_name": "Critical Thinking"
+    },
+    {
+      "data_value": 0.75,
+      "element_id": "2.A.1.a",
+      "element_name": "Reading Comprehension"
+    },
+    {
+      "data_value": 0.75,
+      "element_id": "2.A.1.d",
+      "element_name": "Speaking"
+    },
+    {
+      "data_value": 0.69,
+      "element_id": "2.A.2.d",
+      "element_name": "Monitoring"
+    },
+    {
+      "data_value": 0.69,
+      "element_id": "2.A.1.c",
+      "element_name": "Writing"
+    },
+    {
+      "data_value": 0.66,
+      "element_id": "2.B.2.i",
+      "element_name": "Complex Problem Solving"
+    },
+    {
+      "data_value": 0.66,
+      "element_id": "2.B.1.b",
+      "element_name": "Coordination"
+    },
+    {
+      "data_value": 0.66,
+      "element_id": "2.B.4.e",
+      "element_name": "Judgment and Decision Making"
+    },
+    {
+      "data_value": 0.66,
+      "element_id": "2.B.5.d",
+      "element_name": "Management of Personnel Resources"
+    }
+  ],
+  "tasks": [],
+  "technology_skills": [],
+  "title": "Financial Managers",
+  "work_activities": [
+    {
+      "data_value": 0.84,
+      "element_id": "4.A.3.b.1",
+      "element_name": "Working with Computers"
+    },
+    {
+      "data_value": 0.83,
+      "element_id": "4.A.4.a.4",
+      "element_name": "Establishing and Maintaining Interpersonal Relationships"
+    },
+    {
+      "data_value": 0.82,
+      "element_id": "4.A.4.a.2",
+      "element_name": "Communicating with Supervisors, Peers, or Subordinates"
+    },
+    {
+      "data_value": 0.82,
+      "element_id": "4.A.2.a.2",
+      "element_name": "Processing Information"
+    },
+    {
+      "data_value": 0.81,
+      "element_id": "4.A.2.a.3",
+      "element_name": "Evaluating Information to Determine Compliance with Standards"
+    },
+    {
+      "data_value": 0.81,
+      "element_id": "4.A.1.a.1",
+      "element_name": "Getting Information"
+    },
+    {
+      "data_value": 0.81,
+      "element_id": "4.A.2.b.1",
+      "element_name": "Making Decisions and Solving Problems"
+    },
+    {
+      "data_value": 0.79,
+      "element_id": "4.A.4.b.5",
+      "element_name": "Coaching and Developing Others"
+    },
+    {
+      "data_value": 0.77,
+      "element_id": "4.A.4.b.4",
+      "element_name": "Guiding, Directing, and Motivating Subordinates"
+    },
+    {
+      "data_value": 0.77,
+      "element_id": "4.A.2.b.6",
+      "element_name": "Organizing, Planning, and Prioritizing Work"
+    }
+  ],
+  "work_context": [
+    {
+      "data_value": 1.0,
+      "element_id": "4.C.1.a.2.h",
+      "element_name": "E-Mail"
+    },
+    {
+      "data_value": 0.98,
+      "element_id": "4.C.1.a.2.l",
+      "element_name": "Face-to-Face Discussions with Individuals and Within Teams"
+    },
+    {
+      "data_value": 0.94,
+      "element_id": "4.C.1.b.1.e",
+      "element_name": "Work With or Contribute to a Work Group or Team"
+    },
+    {
+      "data_value": 0.93,
+      "element_id": "4.C.2.a.1.a",
+      "element_name": "Indoors, Environmentally Controlled"
+    },
+    {
+      "data_value": 0.92,
+      "element_id": "4.C.3.b.4",
+      "element_name": "Importance of Being Exact or Accurate"
+    },
+    {
+      "data_value": 0.9,
+      "element_id": "4.C.1.a.2.f",
+      "element_name": "Telephone Conversations"
+    },
+    {
+      "data_value": 0.89,
+      "element_id": "4.C.3.d.1",
+      "element_name": "Time Pressure"
+    },
+    {
+      "data_value": 0.88,
+      "element_id": "4.C.3.a.2.a",
+      "element_name": "Impact of Decisions on Co-workers or Company Results"
+    },
+    {
+      "data_value": 0.88,
+      "element_id": "4.C.1.c.2",
+      "element_name": "Work Outcomes and Results of Other Workers"
+    },
+    {
+      "data_value": 0.87,
+      "element_id": "4.C.3.d.8",
+      "element_name": "Duration of Typical Work Week"
+    }
+  ],
+  "work_styles": [
+    {
+      "data_value": 0.96,
+      "element_id": "1.D.3.d",
+      "element_name": "Integrity"
+    },
+    {
+      "data_value": 0.91,
+      "element_id": "1.D.3.b",
+      "element_name": "Attention to Detail"
+    },
+    {
+      "data_value": 0.88,
+      "element_id": "1.D.3.c",
+      "element_name": "Dependability"
+    },
+    {
+      "data_value": 0.82,
+      "element_id": "1.D.1.i",
+      "element_name": "Leadership Orientation"
+    },
+    {
+      "data_value": 0.76,
+      "element_id": "1.D.3.a",
+      "element_name": "Cautiousness"
+    },
+    {
+      "data_value": 0.72,
+      "element_id": "1.D.1.b",
+      "element_name": "Achievement Orientation"
+    },
+    {
+      "data_value": 0.65,
+      "element_id": "1.D.2.f",
+      "element_name": "Social Orientation"
+    },
+    {
+      "data_value": 0.63,
+      "element_id": "1.D.1.g",
+      "element_name": "Self-Confidence"
+    },
+    {
+      "data_value": 0.61,
+      "element_id": "1.D.4.b",
+      "element_name": "Self-Control"
+    },
+    {
+      "data_value": 0.6,
+      "element_id": "1.D.1.h",
+      "element_name": "Perseverance"
+    }
+  ]
+}

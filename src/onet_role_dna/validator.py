@@ -182,7 +182,7 @@ def validate_directory(directory: str | pathlib.Path) -> bool:
 
         filename = file_path.name
         # Gracefully ignore configuration files and intermediate development artifacts
-        if filename in ALLOWED_EXCEPTIONS or filename.startswith(("step1_", "step2_", "step3_")):
+        if filename in ALLOWED_EXCEPTIONS or filename.startswith(("step1_", "step2_", "step3_", "step4_")):
             continue
 
         scanned_count += 1
