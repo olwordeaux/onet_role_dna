@@ -17,7 +17,8 @@ DATE_REGEX = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 VERSION_REGEX = re.compile(r"^v\d+\.\d+\.\d+$")
 HASH8_REGEX = re.compile(r"^[a-f0-9]{8}$")
 
-ALLOWED_EXCEPTIONS = {".gitkeep", ".gitignore"}
+# Allow local config files and your compiled career DNA trajectory markdown portfolio
+ALLOWED_EXCEPTIONS = {".gitkeep", ".gitignore", "career_dna_trajectory.md"}
 
 
 def validate_date(date_str: str) -> bool:
