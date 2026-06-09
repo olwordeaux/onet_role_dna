@@ -1,0 +1,137 @@
+{
+  "abilities": [],
+  "code": "41-3091.00",
+  "education": [],
+  "interests": [
+    {
+      "description": "Work involves managing, negotiating, marketing, or selling, typically in a business setting, or leading or advising people in political and legal situations. Enterprising occupations are often associated with business initiatives, sales, marketing/advertising, finance, management/administration, professional advising, public speaking, politics, or law.",
+      "id": "1.B.1.e",
+      "name": "Enterprising",
+      "occupational_interest": 96,
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/interests/1.B.1.e"
+    },
+    {
+      "description": "Work involves following procedures and regulations to organize information or data, typically in a business setting. Conventional occupations are often associated with office work, accounting, mathematics/statistics, information technology, finance, or human resources.",
+      "id": "1.B.1.f",
+      "name": "Conventional",
+      "occupational_interest": 68,
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/interests/1.B.1.f"
+    },
+    {
+      "description": "Work involves helping, teaching, advising, assisting, or providing service to others. Social occupations are often associated with social, health care, personal service, teaching/education, or religious activities.",
+      "id": "1.B.1.d",
+      "name": "Social",
+      "occupational_interest": 46,
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/interests/1.B.1.d"
+    },
+    {
+      "description": "Work involves studying and researching non-living objects, living organisms, disease or other forms of impairment, or human behavior. Investigative occupations are often associated with physical, life, medical, or social sciences, and can be found in the fields of humanities, mathematics/statistics, information technology, or health care service.",
+      "id": "1.B.1.b",
+      "name": "Investigative",
+      "occupational_interest": 16,
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/interests/1.B.1.b"
+    },
+    {
+      "description": "Work involves creating original visual artwork, performances, written works, food, or music for a variety of media, or applying artistic principles to the design of various objects and materials. Artistic occupations are often associated with visual arts, applied arts and design, performing arts, music, creative writing, media, or culinary art.",
+      "id": "1.B.1.c",
+      "name": "Artistic",
+      "occupational_interest": 8,
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/interests/1.B.1.c"
+    },
+    {
+      "description": "Work involves designing, building, or repairing of equipment, materials, or structures, engaging in physical activity, or working outdoors. Realistic occupations are often associated with engineering, mechanics and electronics, construction, woodworking, transportation, machine operation, agriculture, animal services, physical or manual labor, athletics, or protective services.",
+      "id": "1.B.1.a",
+      "name": "Realistic",
+      "occupational_interest": 1,
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/interests/1.B.1.a"
+    }
+  ],
+  "job_zone": {
+    "code": 2,
+    "education": "Usually requires a high school diploma or GED, though some occupations may not.",
+    "job_training": "Ranges from a few days to one year of on-the-job training.",
+    "job_zone_examples": "These occupations involve following instructions and often involve using your knowledge and skills to help others. Examples include dishwashers, landscaping and groundskeeping workers, counter and rental clerks, dental laboratory technicians, and security guards.",
+    "related_experience": "Some occupations may need little or no previous experience; others require several months to a year of experience. For example, landscaping and groundskeeping workers might require very little training or previous experience, while agricultural equipment operators can benefit from on-the job training.",
+    "svp_range": "(Below 6.0)",
+    "title": "Job Zone 1-2: Very Little to Some Preparation Needed"
+  },
+  "knowledge": [],
+  "skills": [],
+  "tasks": [],
+  "technology_skills": [],
+  "title": "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
+  "work_activities": [],
+  "work_context": [],
+  "work_styles": [
+    {
+      "description": "A tendency to exhibit determination and resolve to perform or complete tasks in the face of difficult circumstances or obstacles at work.",
+      "id": "1.D.1.h",
+      "importance": 100,
+      "name": "Perseverance",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/work_styles/1.D.1.h"
+    },
+    {
+      "description": "A tendency to seek out, enjoy, and be energized by social interaction at work.",
+      "id": "1.D.2.f",
+      "importance": 94,
+      "name": "Social Orientation",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/work_styles/1.D.2.f"
+    },
+    {
+      "description": "A tendency to establish and maintain personally challenging work-related goals, set high work-related standards, and exert high effort toward meeting those goals and standards.",
+      "id": "1.D.1.b",
+      "importance": 81,
+      "name": "Achievement Orientation",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/work_styles/1.D.1.b"
+    },
+    {
+      "description": "A tendency to believe in one's work-related capabilities and ability to control one's work-related outcomes.",
+      "id": "1.D.1.g",
+      "importance": 73,
+      "name": "Self-Confidence",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/work_styles/1.D.1.g"
+    },
+    {
+      "description": "A tendency to be reliable, responsible, and consistent in meeting work-related obligations.",
+      "id": "1.D.3.c",
+      "importance": 69,
+      "name": "Dependability",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/work_styles/1.D.3.c"
+    },
+    {
+      "description": "A tendency to exhibit a positive attitude and positive emotions at work, even under difficult circumstances.",
+      "id": "1.D.2.e",
+      "importance": 66,
+      "name": "Optimism",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/work_styles/1.D.2.e"
+    },
+    {
+      "description": "A tendency to be proactive and take on extra responsibilities and tasks that may fall outside of one's required work role.",
+      "id": "1.D.1.e",
+      "importance": 65,
+      "name": "Initiative",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/work_styles/1.D.1.e"
+    },
+    {
+      "description": "A tendency to be open to and comfortable with change, new experiences, or ideas at work.",
+      "id": "1.D.1.f",
+      "importance": 57,
+      "name": "Adaptability",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/work_styles/1.D.1.f"
+    },
+    {
+      "description": "A tendency to remain calm and composed and to manage emotions effectively in response to criticism or difficult situations at work.",
+      "id": "1.D.4.b",
+      "importance": 55,
+      "name": "Self-Control",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/work_styles/1.D.4.b"
+    },
+    {
+      "description": "A tendency to cope and function effectively in stressful situations at work.",
+      "id": "1.D.4.a",
+      "importance": 54,
+      "name": "Stress Tolerance",
+      "related": "https://api-v2.onetcenter.org/online/occupations/41-3091.00/related/work_styles/1.D.4.a"
+    }
+  ]
+}

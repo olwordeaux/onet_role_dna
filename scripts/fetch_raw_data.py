@@ -1,7 +1,7 @@
 """
 O*NET Raw Data Fetcher.
 Sequentially downloads all requested details domains for the 5 target codes,
-handles retries/backoffs and 404s, and compiles raw JSON datasets.
+handles retries/backoffs and 404/422s, and compiles raw JSON datasets.
 """
 
 import json
@@ -42,7 +42,7 @@ ENDPOINTS = {
 
 def make_request_with_retry(url: str, headers: dict[str, str], max_retries: int = 3) -> requests.Response:
     """
-    Sends a GET request with exponential backoff retries for non-404 errors.
+    Sends a GET request with exponential backoff retries for non-404/422 errors.
     """
     backoff = 1.0
     for attempt in range(max_retries + 1):
@@ -50,8 +50,8 @@ def make_request_with_retry(url: str, headers: dict[str, str], max_retries: int 
             response = requests.get(url, headers=headers, timeout=15)
             if response.status_code == 200:
                 return response
-            elif response.status_code == 404:
-                # Do not retry on 404 Not Found (it is a valid structural miss)
+            elif response.status_code in (404, 422):
+                # Do not retry on 404 or 422 (they represent structural missing data)
                 return response
             else:
                 logger.warning(
@@ -124,8 +124,8 @@ def main() -> None:
             # Step A: Fetch base occupation data to get the official title
             base_url = f"{BASE_URL}online/occupations/{code}/"
             base_res = make_request_with_retry(base_url, headers=headers)
-            if base_res.status_code == 404:
-                logger.error("Occupation %s not found on API (HTTP 404). Skipping.", code)
+            if base_res.status_code in (404, 422):
+                logger.error("Occupation %s not found on API (HTTP %d). Skipping.", code, base_res.status_code)
                 failure_codes.append(code)
                 continue
 
@@ -149,9 +149,10 @@ def main() -> None:
                 if detail_res.status_code == 200:
                     payload = extract_payload(detail_res.json(), domain)
                     combined_object[domain] = payload
-                elif detail_res.status_code == 404:
+                elif detail_res.status_code in (404, 422):
                     logger.warning(
-                        "    [404 NOT FOUND] Domain %s missing for %s. Treating as missing.",
+                        "    [%d MISSING] Domain %s missing for %s. Treating as missing.",
+                        detail_res.status_code,
                         domain,
                         code,
                     )

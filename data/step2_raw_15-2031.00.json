@@ -1,0 +1,608 @@
+{
+  "abilities": [
+    {
+      "description": "The ability to choose the right mathematical methods or formulas to solve a problem.",
+      "id": "1.A.1.c.1",
+      "importance": 88,
+      "name": "Mathematical Reasoning",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/abilities/1.A.1.c.1"
+    },
+    {
+      "description": "The ability to apply general rules to specific problems to produce answers that make sense.",
+      "id": "1.A.1.b.4",
+      "importance": 78,
+      "name": "Deductive Reasoning",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/abilities/1.A.1.b.4"
+    },
+    {
+      "description": "The ability to combine pieces of information to form general rules or conclusions (includes finding a relationship among seemingly unrelated events).",
+      "id": "1.A.1.b.5",
+      "importance": 78,
+      "name": "Inductive Reasoning",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/abilities/1.A.1.b.5"
+    },
+    {
+      "description": "The ability to add, subtract, multiply, or divide quickly and correctly.",
+      "id": "1.A.1.c.2",
+      "importance": 75,
+      "name": "Number Facility",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/abilities/1.A.1.c.2"
+    },
+    {
+      "description": "The ability to listen to and understand information and ideas presented through spoken words and sentences.",
+      "id": "1.A.1.a.1",
+      "importance": 75,
+      "name": "Oral Comprehension",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/abilities/1.A.1.a.1"
+    },
+    {
+      "description": "The ability to communicate information and ideas in speaking so others will understand.",
+      "id": "1.A.1.a.3",
+      "importance": 75,
+      "name": "Oral Expression",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/abilities/1.A.1.a.3"
+    },
+    {
+      "description": "The ability to tell when something is wrong or is likely to go wrong. It does not involve solving the problem, only recognizing that there is a problem.",
+      "id": "1.A.1.b.3",
+      "importance": 75,
+      "name": "Problem Sensitivity",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/abilities/1.A.1.b.3"
+    },
+    {
+      "description": "The ability to read and understand information and ideas presented in writing.",
+      "id": "1.A.1.a.2",
+      "importance": 75,
+      "name": "Written Comprehension",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/abilities/1.A.1.a.2"
+    },
+    {
+      "description": "The ability to communicate information and ideas in writing so others will understand.",
+      "id": "1.A.1.a.4",
+      "importance": 75,
+      "name": "Written Expression",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/abilities/1.A.1.a.4"
+    },
+    {
+      "description": "The ability to arrange things or actions in a certain order or pattern according to a specific rule or set of rules (e.g., patterns of numbers, letters, words, pictures, mathematical operations).",
+      "id": "1.A.1.b.6",
+      "importance": 72,
+      "name": "Information Ordering",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/abilities/1.A.1.b.6"
+    }
+  ],
+  "code": "15-2031.00",
+  "education": [
+    {
+      "code": 8,
+      "percentage_of_respondents": 43,
+      "title": "Master’s degree"
+    },
+    {
+      "code": 6,
+      "percentage_of_respondents": 33,
+      "title": "Bachelor’s degree"
+    },
+    {
+      "code": 11,
+      "percentage_of_respondents": 14,
+      "title": "Doctoral degree"
+    }
+  ],
+  "interests": [
+    {
+      "description": "Work involves studying and researching non-living objects, living organisms, disease or other forms of impairment, or human behavior. Investigative occupations are often associated with physical, life, medical, or social sciences, and can be found in the fields of humanities, mathematics/statistics, information technology, or health care service.",
+      "id": "1.B.1.b",
+      "name": "Investigative",
+      "occupational_interest": 88,
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/interests/1.B.1.b"
+    },
+    {
+      "description": "Work involves following procedures and regulations to organize information or data, typically in a business setting. Conventional occupations are often associated with office work, accounting, mathematics/statistics, information technology, finance, or human resources.",
+      "id": "1.B.1.f",
+      "name": "Conventional",
+      "occupational_interest": 79,
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/interests/1.B.1.f"
+    },
+    {
+      "description": "Work involves managing, negotiating, marketing, or selling, typically in a business setting, or leading or advising people in political and legal situations. Enterprising occupations are often associated with business initiatives, sales, marketing/advertising, finance, management/administration, professional advising, public speaking, politics, or law.",
+      "id": "1.B.1.e",
+      "name": "Enterprising",
+      "occupational_interest": 36,
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/interests/1.B.1.e"
+    },
+    {
+      "description": "Work involves creating original visual artwork, performances, written works, food, or music for a variety of media, or applying artistic principles to the design of various objects and materials. Artistic occupations are often associated with visual arts, applied arts and design, performing arts, music, creative writing, media, or culinary art.",
+      "id": "1.B.1.c",
+      "name": "Artistic",
+      "occupational_interest": 20,
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/interests/1.B.1.c"
+    },
+    {
+      "description": "Work involves helping, teaching, advising, assisting, or providing service to others. Social occupations are often associated with social, health care, personal service, teaching/education, or religious activities.",
+      "id": "1.B.1.d",
+      "name": "Social",
+      "occupational_interest": 17,
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/interests/1.B.1.d"
+    },
+    {
+      "description": "Work involves designing, building, or repairing of equipment, materials, or structures, engaging in physical activity, or working outdoors. Realistic occupations are often associated with engineering, mechanics and electronics, construction, woodworking, transportation, machine operation, agriculture, animal services, physical or manual labor, athletics, or protective services.",
+      "id": "1.B.1.a",
+      "name": "Realistic",
+      "occupational_interest": 15,
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/interests/1.B.1.a"
+    }
+  ],
+  "job_zone": {
+    "code": 5,
+    "education": "Most of these occupations require graduate school. For example, they may require a master's degree, and some require a Ph.D., M.D., or J.D. (law degree).",
+    "job_training": "Employees may need some on-the-job training, but most of these occupations assume that the person will already have the required skills, knowledge, work-related experience, and/or training.",
+    "job_zone_examples": "These occupations often involve coordinating, training, supervising, or managing the activities of others to accomplish goals. Very advanced communication and organizational skills are required. Examples include pharmacists, lawyers, astronomers, biologists, clergy, physician assistants, and veterinarians.",
+    "related_experience": "Extensive skill, knowledge, and experience are needed for these occupations. Many require more than five years of experience. For example, surgeons must complete four years of college and an additional five to seven years of specialized medical training to be able to do their job.",
+    "svp_range": "(8.0 and above)",
+    "title": "Job Zone Five: Extensive Preparation Needed"
+  },
+  "knowledge": [
+    {
+      "description": "Knowledge of arithmetic, algebra, geometry, calculus, statistics, and their applications.",
+      "id": "2.C.4.a",
+      "importance": 93,
+      "name": "Mathematics",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/knowledge/2.C.4.a"
+    },
+    {
+      "description": "Knowledge of circuit boards, processors, chips, electronic equipment, and computer hardware and software, including applications and programming.",
+      "id": "2.C.3.a",
+      "importance": 78,
+      "name": "Computers and Electronics",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/knowledge/2.C.3.a"
+    },
+    {
+      "description": "Knowledge of the practical application of engineering science and technology. This includes applying principles, techniques, procedures, and equipment to the design and production of various goods and services.",
+      "id": "2.C.3.b",
+      "importance": 74,
+      "name": "Engineering and Technology",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/knowledge/2.C.3.b"
+    },
+    {
+      "description": "Knowledge of raw materials, production processes, quality control, costs, and other techniques for maximizing the effective manufacture and distribution of goods.",
+      "id": "2.C.2.a",
+      "importance": 68,
+      "name": "Production and Processing",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/knowledge/2.C.2.a"
+    },
+    {
+      "description": "Knowledge of the structure and content of the English language including the meaning and spelling of words, and rules of composition and grammar.",
+      "id": "2.C.7.a",
+      "importance": 64,
+      "name": "English Language",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/knowledge/2.C.7.a"
+    },
+    {
+      "description": "Knowledge of design techniques, tools, and principles involved in production of precision technical plans, blueprints, drawings, and models.",
+      "id": "2.C.3.c",
+      "importance": 53,
+      "name": "Design",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/knowledge/2.C.3.c"
+    },
+    {
+      "description": "Knowledge of principles and methods for curriculum and training design, teaching and instruction for individuals and groups, and the measurement of training effects.",
+      "id": "2.C.6",
+      "importance": 51,
+      "name": "Education and Training",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/knowledge/2.C.6"
+    },
+    {
+      "description": "Knowledge of business and management principles involved in strategic planning, resource allocation, human resources modeling, leadership technique, production methods, and coordination of people and resources.",
+      "id": "2.C.1.a",
+      "importance": 45,
+      "name": "Administration and Management",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/knowledge/2.C.1.a"
+    },
+    {
+      "description": "Knowledge of economic and accounting principles and practices, the financial markets, banking, and the analysis and reporting of financial data.",
+      "id": "2.C.1.c",
+      "importance": 41,
+      "name": "Economics and Accounting",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/knowledge/2.C.1.c"
+    },
+    {
+      "description": "Knowledge of principles and processes for providing customer and personal services. This includes customer needs assessment, meeting quality standards for services, and evaluation of customer satisfaction.",
+      "id": "2.C.1.e",
+      "importance": 38,
+      "name": "Customer and Personal Service",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/knowledge/2.C.1.e"
+    }
+  ],
+  "skills": [
+    {
+      "description": "Using mathematics to solve problems.",
+      "id": "2.A.1.e",
+      "importance": 88,
+      "name": "Mathematics",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/skills/2.A.1.e"
+    },
+    {
+      "description": "Identifying complex problems and reviewing related information to develop and evaluate options and implement solutions.",
+      "id": "2.B.2.i",
+      "importance": 78,
+      "name": "Complex Problem Solving",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/skills/2.B.2.i"
+    },
+    {
+      "description": "Giving full attention to what other people are saying, taking time to understand the points being made, asking questions as appropriate, and not interrupting at inappropriate times.",
+      "id": "2.A.1.b",
+      "importance": 75,
+      "name": "Active Listening",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/skills/2.A.1.b"
+    },
+    {
+      "description": "Using logic and reasoning to identify the strengths and weaknesses of alternative solutions, conclusions, or approaches to problems.",
+      "id": "2.A.2.a",
+      "importance": 75,
+      "name": "Critical Thinking",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/skills/2.A.2.a"
+    },
+    {
+      "description": "Understanding written sentences and paragraphs in work-related documents.",
+      "id": "2.A.1.a",
+      "importance": 75,
+      "name": "Reading Comprehension",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/skills/2.A.1.a"
+    },
+    {
+      "description": "Talking to others to convey information effectively.",
+      "id": "2.A.1.d",
+      "importance": 75,
+      "name": "Speaking",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/skills/2.A.1.d"
+    },
+    {
+      "description": "Communicating effectively in writing as appropriate for the needs of the audience.",
+      "id": "2.A.1.c",
+      "importance": 75,
+      "name": "Writing",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/skills/2.A.1.c"
+    },
+    {
+      "description": "Understanding the implications of new information for both current and future problem-solving and decision-making.",
+      "id": "2.A.2.b",
+      "importance": 72,
+      "name": "Active Learning",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/skills/2.A.2.b"
+    },
+    {
+      "description": "Considering the relative costs and benefits of potential actions to choose the most appropriate one.",
+      "id": "2.B.4.e",
+      "importance": 72,
+      "name": "Judgment and Decision Making",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/skills/2.B.4.e"
+    },
+    {
+      "description": "Determining how a system should work and how changes in conditions, operations, and the environment will affect outcomes.",
+      "id": "2.B.4.g",
+      "importance": 72,
+      "name": "Systems Analysis",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/skills/2.B.4.g"
+    }
+  ],
+  "tasks": [],
+  "technology_skills": [],
+  "title": "Operations Research Analysts",
+  "work_activities": [
+    {
+      "description": "Observing, receiving, and otherwise obtaining information from all relevant sources.",
+      "id": "4.A.1.a.1",
+      "importance": 95,
+      "name": "Getting Information",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_activities/4.A.1.a.1"
+    },
+    {
+      "description": "Identifying the underlying principles, reasons, or facts of information by breaking down information or data into separate parts.",
+      "id": "4.A.2.a.4",
+      "importance": 92,
+      "name": "Analyzing Data or Information",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_activities/4.A.2.a.4"
+    },
+    {
+      "description": "Analyzing information and evaluating results to choose the best solution and solve problems.",
+      "id": "4.A.2.b.1",
+      "importance": 92,
+      "name": "Making Decisions and Solving Problems",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_activities/4.A.2.b.1"
+    },
+    {
+      "description": "Using computers and computer systems (including hardware and software) to program, write software, set up functions, enter data, or process information.",
+      "id": "4.A.3.b.1",
+      "importance": 92,
+      "name": "Working with Computers",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_activities/4.A.3.b.1"
+    },
+    {
+      "description": "Compiling, coding, categorizing, calculating, tabulating, auditing, or verifying information or data.",
+      "id": "4.A.2.a.2",
+      "importance": 87,
+      "name": "Processing Information",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_activities/4.A.2.a.2"
+    },
+    {
+      "description": "Identifying information by categorizing, estimating, recognizing differences or similarities, and detecting changes in circumstances or events.",
+      "id": "4.A.1.b.1",
+      "importance": 83,
+      "name": "Identifying Objects, Actions, and Events",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_activities/4.A.1.b.1"
+    },
+    {
+      "description": "Translating or explaining what information means and how it can be used.",
+      "id": "4.A.4.a.1",
+      "importance": 81,
+      "name": "Interpreting the Meaning of Information for Others",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_activities/4.A.4.a.1"
+    },
+    {
+      "description": "Keeping up-to-date technically and applying new knowledge to your job.",
+      "id": "4.A.2.b.3",
+      "importance": 81,
+      "name": "Updating and Using Relevant Knowledge",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_activities/4.A.2.b.3"
+    },
+    {
+      "description": "Developing, designing, or creating new applications, ideas, relationships, systems, or products, including artistic contributions.",
+      "id": "4.A.2.b.2",
+      "importance": 78,
+      "name": "Thinking Creatively",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_activities/4.A.2.b.2"
+    },
+    {
+      "description": "Providing information to supervisors, co-workers, and subordinates by telephone, in written form, e-mail, or in person.",
+      "id": "4.A.4.a.2",
+      "importance": 76,
+      "name": "Communicating with Supervisors, Peers, or Subordinates",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_activities/4.A.4.a.2"
+    }
+  ],
+  "work_context": [
+    {
+      "context": 97,
+      "description": "How often does this job require working indoors in an environmentally controlled environment (like a warehouse with air conditioning)?",
+      "id": "4.C.2.a.1.a",
+      "name": "Indoors, Environmentally Controlled",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_context/4.C.2.a.1.a",
+      "response": [
+        {
+          "description": "Every day",
+          "percentage_of_respondents": 86
+        },
+        {
+          "description": "Once a week or more but not every day",
+          "percentage_of_respondents": 14
+        }
+      ]
+    },
+    {
+      "context": 95,
+      "description": "How frequently does your job require you to use E-mail?",
+      "id": "4.C.1.a.2.h",
+      "name": "E-Mail",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_context/4.C.1.a.2.h",
+      "response": [
+        {
+          "description": "Every day",
+          "percentage_of_respondents": 90
+        }
+      ]
+    },
+    {
+      "context": 86,
+      "description": "How much does this job require sitting?",
+      "id": "4.C.2.d.1.a",
+      "name": "Spend Time Sitting",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_context/4.C.2.d.1.a",
+      "response": [
+        {
+          "description": "Continually or almost continually",
+          "percentage_of_respondents": 71
+        },
+        {
+          "description": "More than half the time",
+          "percentage_of_respondents": 19
+        }
+      ]
+    },
+    {
+      "context": 83,
+      "description": "How important is it to work with or contribute to a work group or team in this job?",
+      "id": "4.C.1.b.1.e",
+      "name": "Work With or Contribute to a Work Group or Team",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_context/4.C.1.b.1.e",
+      "response": [
+        {
+          "description": "Extremely important",
+          "percentage_of_respondents": 48
+        },
+        {
+          "description": "Very important",
+          "percentage_of_respondents": 43
+        }
+      ]
+    },
+    {
+      "context": 82,
+      "description": "How frequently does your job require face-to-face discussions with individuals and within teams?",
+      "id": "4.C.1.a.2.l",
+      "name": "Face-to-Face Discussions with Individuals and Within Teams",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_context/4.C.1.a.2.l",
+      "response": [
+        {
+          "description": "Every day",
+          "percentage_of_respondents": 38
+        },
+        {
+          "description": "Once a week or more but not every day",
+          "percentage_of_respondents": 52
+        }
+      ]
+    },
+    {
+      "context": 81,
+      "description": "How important is being very exact or highly accurate in performing this job?",
+      "id": "4.C.3.b.4",
+      "name": "Importance of Being Exact or Accurate",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_context/4.C.3.b.4",
+      "response": [
+        {
+          "description": "Extremely important",
+          "percentage_of_respondents": 43
+        },
+        {
+          "description": "Very important",
+          "percentage_of_respondents": 43
+        }
+      ]
+    },
+    {
+      "context": 79,
+      "description": "Number of hours typically worked in one week.",
+      "id": "4.C.3.d.8",
+      "name": "Duration of Typical Work Week",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_context/4.C.3.d.8",
+      "response": [
+        {
+          "description": "More than 40 hours",
+          "percentage_of_respondents": 57
+        },
+        {
+          "description": "40 hours",
+          "percentage_of_respondents": 43
+        }
+      ]
+    },
+    {
+      "context": 78,
+      "description": "How often do you have telephone conversations in this job?",
+      "id": "4.C.1.a.2.f",
+      "name": "Telephone Conversations",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_context/4.C.1.a.2.f",
+      "response": [
+        {
+          "description": "Every day",
+          "percentage_of_respondents": 29
+        },
+        {
+          "description": "Once a week or more but not every day",
+          "percentage_of_respondents": 57
+        }
+      ]
+    },
+    {
+      "context": 76,
+      "description": "How much freedom does the worker have in determining the tasks, priorities, or goals of the job?",
+      "id": "4.C.3.b.8",
+      "name": "Determine Tasks, Priorities and Goals",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_context/4.C.3.b.8",
+      "response": [
+        {
+          "description": "A lot of freedom",
+          "percentage_of_respondents": 29
+        },
+        {
+          "description": "Some freedom",
+          "percentage_of_respondents": 57
+        }
+      ]
+    },
+    {
+      "context": 69,
+      "description": "How much decision making freedom, without supervision, does the job offer?",
+      "id": "4.C.3.a.4",
+      "name": "Freedom to Make Decisions",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_context/4.C.3.a.4",
+      "response": [
+        {
+          "description": "A lot of freedom",
+          "percentage_of_respondents": 14
+        },
+        {
+          "description": "Some freedom",
+          "percentage_of_respondents": 62
+        },
+        {
+          "description": "Limited freedom",
+          "percentage_of_respondents": 14
+        }
+      ]
+    }
+  ],
+  "work_styles": [
+    {
+      "description": "A tendency to seek out and acquire new work-related knowledge and obtain a deep understanding of work-related subjects.",
+      "id": "1.D.1.c",
+      "importance": 88,
+      "name": "Intellectual Curiosity",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_styles/1.D.1.c"
+    },
+    {
+      "description": "A tendency to be detail-oriented, organized, and thorough in completing work.",
+      "id": "1.D.3.b",
+      "importance": 86,
+      "name": "Attention to Detail",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_styles/1.D.3.b"
+    },
+    {
+      "description": "A tendency to establish and maintain personally challenging work-related goals, set high work-related standards, and exert high effort toward meeting those goals and standards.",
+      "id": "1.D.1.b",
+      "importance": 72,
+      "name": "Achievement Orientation",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_styles/1.D.1.b"
+    },
+    {
+      "description": "A tendency to be reliable, responsible, and consistent in meeting work-related obligations.",
+      "id": "1.D.3.c",
+      "importance": 72,
+      "name": "Dependability",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_styles/1.D.3.c"
+    },
+    {
+      "description": "A tendency to be inventive, to be imaginative, and to adopt new perspectives on ways to accomplish work.",
+      "id": "1.D.1.a",
+      "importance": 72,
+      "name": "Innovation",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_styles/1.D.1.a"
+    },
+    {
+      "description": "A tendency to be careful, deliberate, and risk-avoidant when making work-related decisions or doing work.",
+      "id": "1.D.3.a",
+      "importance": 69,
+      "name": "Cautiousness",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_styles/1.D.3.a"
+    },
+    {
+      "description": "A tendency to be honest and ethical at work.",
+      "id": "1.D.3.d",
+      "importance": 69,
+      "name": "Integrity",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_styles/1.D.3.d"
+    },
+    {
+      "description": "A tendency to be comfortable with ambiguity and uncertainty at work.",
+      "id": "1.D.1.d",
+      "importance": 60,
+      "name": "Tolerance for Ambiguity",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_styles/1.D.1.d"
+    },
+    {
+      "description": "A tendency to be open to and comfortable with change, new experiences, or ideas at work.",
+      "id": "1.D.1.f",
+      "importance": 57,
+      "name": "Adaptability",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_styles/1.D.1.f"
+    },
+    {
+      "description": "A tendency to exhibit determination and resolve to perform or complete tasks in the face of difficult circumstances or obstacles at work.",
+      "id": "1.D.1.h",
+      "importance": 53,
+      "name": "Perseverance",
+      "related": "https://api-v2.onetcenter.org/online/occupations/15-2031.00/related/work_styles/1.D.1.h"
+    }
+  ]
+}

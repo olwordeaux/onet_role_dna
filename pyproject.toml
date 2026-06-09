@@ -112,6 +112,7 @@ ignore = []
 "scripts/fetch_raw_data.py" = ["T201", "BLE001"]
 "scripts/clean_raw_data.py" = ["T201", "BLE001"]
 "scripts/audit_clean_data.py" = ["T201", "BLE001"]
+"scripts/save_codes.py" = ["T201"]
 
 [tool.coverage.run]
 branch = true
